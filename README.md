@@ -18,7 +18,7 @@ This file includes all of the code used to quality check and clean sequences to 
 8. using htseq-counts to record the number of counts for each feature
 
 ## CE_methyl_analysis
-
+R script for data analysis using the output from htseq-counts (counts.txt), using DESeq2.
 
 ## pipeline_counts.ipynb
 Getting the read counts for each step of the pipeline: number of raw reads and trimmed reads, number of reads that aligned concordantly to the NCBI RefSeq, number of marked duplicates, and the number of reads that were aligned to features with htseq-counts
