@@ -23,6 +23,15 @@ R script for data analysis using the output from htseq-counts (counts.txt), usin
 ## pipeline_counts.ipynb
 Getting the read counts for each step of the pipeline: number of raw reads and trimmed reads, number of reads that aligned concordantly to the NCBI RefSeq, number of marked duplicates, and the number of reads that were aligned to features with htseq-counts
 
+## CV_CE18_pipeline_counts.csv
+Table containing the amount of reads after each step in the quality-check pipeline. The marked_dup column is the number of marked optical duplicates of the read pairs. 
+
+## CV_CE18_meta.csv
+Table containing the meta data for the CV samples.
+
+## htseq_counts.csv
+Table containing number of reads at each feature, output from htseq-counts.
+
 ## picard.jar
 This is the picard package in order to use picard tools to mark duplicates
 
