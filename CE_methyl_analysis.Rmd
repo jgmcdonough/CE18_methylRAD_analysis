@@ -1,0 +1,136 @@
+---
+title: "CE_methyl_analysis"
+output: html_document
+date: "2023-11-15"
+author: "Julia McDonough"
+---
+
+This script includes all of the analysis done for the Crassostrea virginica methylRAD sequences. Thesee sequences were processed and quality checked in the CE_methyl_QC.ipynb file. 
+
+## installing packagees
+```{r setup, include=FALSE}
+#install.packages("tidyverse")
+BiocManager::install("DESeq2")
+library(tidyverse)
+library(DESeq2)
+
+
+if (!requireNamespace("stringr", quietly = TRUE)) {
+  install.packages("stringr")
+}
+library(stringr)
+```
+
+## loading and cleaning data
+
+loading in the meta data, which includes all samples with the info on their treatments conditions and label information. 
+
+```{r meta}
+meta = read.csv("/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018/CV_CE18_meta.csv")
+head(meta)
+
+# adding row names to meta
+rownames(meta)=meta$unique_ID
+```
+loading in the htseq-counts results
+
+```{r counts}
+counts = read.csv("/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018/htseq_counts.csv")
+head(counts)
+
+# editing column names to match the meta row names
+colnames(counts) = c("genes", rownames(meta))
+
+# adding row names, arbitrary gene1 gene2 etc
+rownames(counts) = paste0("gene", 1:NROW(counts))
+```
+
+loading in the Crassostrea virginica genome info for both gff and gtf files (still deciding which ones I want to use)
+```{r gtf_file}
+gtf_file <- "/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/assembly/reference_genomes/genomic.gtf"
+
+# Read GTF file with read.table
+gtf_data <- read.table(gtf_file, header = FALSE, sep = "\t", comment.char = "#", quote = "", stringsAsFactors = FALSE)
+
+# adding column names
+colnames(gtf_data) <- c("seqname", "source", "feature", "start", "end", "score", "strand", "frame", "attributes")
+
+# Print the first few rows of the data
+head(gtf_data)
+```
+
+now editing gtf_data to include a column that has isolated the gene_id from the attributes column
+
+```{r adding column to gtf data}
+# Define a function to extract gene_info from attributes
+extract_gene_info <- function(attribute_string) {
+  gene_id <- str_match(attribute_string, "gene_id \"([^\"]+)\"")[, 2]
+  return(gene_id)
+}
+
+# Apply the function to every element in the "attributes" column
+gtf_data$gene_id <- sapply(gtf_data$attributes, extract_gene_info)
+
+# Display the modified data frame
+head(gtf_data)
+
+```
+
+```{r gff_file}
+gff_file <- "/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/assembly/reference_genomes/genomic.gff"
+
+# Read GFF file with read.table
+gff_data <- read.table(gff_file, header = FALSE, sep = "\t", comment.char = "#", quote = "", stringsAsFactors = FALSE)
+
+# If your GFF file has a header, you can add column names manually
+# Replace "your_column_names" with the actual names in your file
+colnames(gff_data) <- c("seqname", "source", "feature", "start", "end", "score", "strand", "frame", "attributes")
+
+# Print the first few rows of the data
+head(gff_data)
+
+```
+
+further editing data, like adding columns to meta
+
+```{r adding to meta}
+# adds together all treatment for round 1
+meta$TC1 = paste(meta$T1_oxygen, meta$T1_temp)
+# adds together all treatment for round 2
+meta$TC2 = paste(meta$T2_oxygen, meta$T2_temp)
+head(meta)
+```
+## starting to look at the data and analyzing
+
+```{r investigating hypoxic warm treatments}
+# looking at 
+meta_hw = meta[meta$TC2=="hypoxic warm",]
+meta_hw
+
+# grabbing the columns of counts that match the conditions of the meta info (hypoxic warm)
+counts_hw = counts[,colnames(counts) %in% meta_hw$unique_ID, drop=FALSE]
+counts_hw
+
+# checking that things make sense
+dim(counts_hw) # 10 columns
+dim(meta_hw) # 10 rows
+
+# names match
+colnames(counts_hw)
+rownames(meta_hw)
+
+dds_hw <- DESeqDataSetFromMatrix(countData = counts_hw, 
+                                 colData = meta_hw,
+                                 design = ~TC1)
+
+dds_hw=DESeq(dds_hw)
+resultsNames(dds_hw)
+res=results(dds_hw, name="TC1_normoxic.warm_vs_hypoxic.warm")
+sig1_stress = res[which(res$padj < 0.05),]
+dim(sig1_stress)
+
+sig1_stress=as.data.frame(sig1_stress)
+sig1_stress
+```
+
+
