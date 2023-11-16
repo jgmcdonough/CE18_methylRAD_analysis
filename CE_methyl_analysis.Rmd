@@ -42,7 +42,8 @@ head(counts)
 colnames(counts) = c("genes", rownames(meta))
 
 # adding row names, arbitrary gene1 gene2 etc
-rownames(counts) = paste0("gene", 1:NROW(counts))
+#rownames(counts) = paste0("gene", 1:NROW(counts))
+rownames(counts) = counts$genes
 ```
 
 loading in the Crassostrea virginica genome info for both gff and gtf files (still deciding which ones I want to use)
@@ -74,8 +75,17 @@ gtf_data$gene_id <- sapply(gtf_data$attributes, extract_gene_info)
 # Display the modified data frame
 head(gtf_data)
 
-```
+rownames(gtf_data) = gtf_data$gene_id
 
+dim(counts)
+dim(gtf_data)
+
+summary(gtf_data$gene_id %in% rownames(counts))
+counts_match = gtf_data[gtf_data$gene_id %in% rownames(counts),]
+head(counts_match)
+unique(gtf_data$gene_id)
+```
+SARAH USED THE GFF FILE AND NAMED IT GENEDATA
 ```{r gff_file}
 gff_file <- "/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/assembly/reference_genomes/genomic.gff"
 
@@ -89,6 +99,12 @@ colnames(gff_data) <- c("seqname", "source", "feature", "start", "end", "score",
 # Print the first few rows of the data
 head(gff_data)
 
+
+rownames(gff_data)=paste0("gene",1:NROW(gff_data))
+head(gff_data)
+
+genedata=as.data.frame(gff_data[,1:9])
+genedata 
 ```
 
 further editing data, like adding columns to meta
@@ -119,6 +135,9 @@ dim(meta_hw) # 10 rows
 colnames(counts_hw)
 rownames(meta_hw)
 
+# starting DESeq2 analysis
+## SO THIS IS NOT RIGHT - my counts data is from htseq-counts, so there's a
+## specific way you need to do it
 dds_hw <- DESeqDataSetFromMatrix(countData = counts_hw, 
                                  colData = meta_hw,
                                  design = ~TC1)
@@ -131,6 +150,166 @@ dim(sig1_stress)
 
 sig1_stress=as.data.frame(sig1_stress)
 sig1_stress
+```
+
+```{r deseq2 on htseq-counts data}
+directory <- "/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018"
+
+sampleFiles <- grep("treated",list.files(directory),value=TRUE)
+sampleCondition <- sub("(.*treated).*","\\1",sampleFiles)
+sampleTable <- data.frame(sampleName = sampleFiles,
+                          fileName = sampleFiles,
+                          condition = sampleCondition)
+sampleTable$condition <- factor(sampleTable$condition)
+
+
+ddsHTSeq <- DESeqDataSetFromHTSeqCount(sampleTable = htseq_counts.csv,
+                                       directory = directory,
+                                       design= ~ condition)
+ddsHTSeq
+```
+
+```{r chatgpt troubleshooting}
+
+directory <- "/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018"
+
+# Specify the path to your count matrix CSV file
+countMatrixFile <- file.path(directory, "htseq_counts.csv")
+
+# Read the count matrix from the CSV file
+countMatrix <- as.matrix(read.csv(countMatrixFile, row.names = 1))
+colnames(countMatrix) = rownames(meta)
+
+# looking at 
+meta_hw = meta[meta$TC2=="hypoxic warm",]
+head(meta_hw)
+
+# grabbing the columns of counts that match the conditions of the meta info (hypoxic warm)
+counts_hw = counts[,colnames(counts) %in% meta_hw$unique_ID, drop=FALSE]
+counts_hw
+
+# Create the sample table
+sampleFiles <- colnames(countMatrix)
+sampleCondition <- sub("(.*treated).*", "\\1", sampleFiles)
+sampleTable <- data.frame(sampleName = sampleFiles,
+                          fileName = sampleFiles,
+                          condition = sampleCondition)
+sampleTable$condition <- factor(sampleTable$condition)
+
+# Create DESeqDataSet
+ddsHTSeq <- DESeqDataSetFromMatrix(countData = counts_hw,
+                                   colData = meta_hw,
+                                   design = ~ TC1)
+
+# Display the DESeqDataSet
+ddsHTSeq
+
+library(DESeq2)
+dds_hw = DESeq(ddsHTSeq)
+
+resultsNames(dds_hw)
+res=results(dds_hw, name="TC1_normoxic.warm_vs_hypoxic.warm")
+
+sig1_stress=res[which(res$padj < 0.05),]
+sig1_stress=as.data.frame(sig1_stress)
+sig1_stress
+
+sig_hw_genes=merge(sig1_stress, )
+```
+## data analysis - DESeq & visualization
+
+### treatment 2: hypoxic warm 
+following a tutorial online and seeing if I can figure this out
+https://www.youtube.com/watch?v=OzNzO8qwwp0
+
+```{r youtube tutorial; reading in data and processing}
+# reading in counts data
+counts_data <- read.csv("/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018/htseq_counts.csv")
+# reading in column data
+colData <- read.csv("/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018/CV_CE18_meta.csv")
+
+# changing rownames of counts_data to have the gene names
+rownames(counts_data) = counts_data$genes
+counts_data$genes <- NULL # deleting genes column
+# rownames of the colData becomes the short unique sample ID
+rownames(colData) = colData$unique_ID
+rownames(colData)
+# changing column names of counts_data to match colData
+colnames(counts_data) = rownames(colData)
+colnames(counts_data)
+
+# should have same number of colData rows and counts_data columns and should be in the same order
+dim(counts_data) # 30 columns
+dim(colData) # 30 rows
+# are all colnames in counts_data in rownames in colData?
+all(colnames(counts_data) %in% rownames(colData)) # TRUE
+# are they all in the same order?
+all(colnames(counts_data) == rownames(colData)) # TRUE
+
+# creating design factors
+colData$TC1 = paste(colData$T1_oxygen, colData$T1_temp)
+colData$TC2 = paste(colData$T2_oxygen, colData$T2_temp)
+```
+
+```{r youtube tutorial; hypoxic warm for treatment 2}
+# grabbing samples that were hypoxic warm for the second treatment
+colData_hw = colData[colData$TC2=="hypoxic warm",]
+# then need to make sure to grab those same samples in the counts_data
+counts_data_hw = counts_data[,colnames(counts_data) %in% colData_hw$unique_ID, drop=FALSE]
+
+# are all colnames in counts_data in rownames in colData?
+all(colnames(counts_data_hw) %in% rownames(colData_hw)) # TRUE
+# are they all in the same order?
+all(colnames(counts_data_hw) == rownames(colData_hw)) # TRUE
+
+counts_data_hw = counts_data_hw[1:38828,]
+
+as.matrix(counts_data_hw)
+as.matrix(colData_hw)
+
+# create DESeqDataSet
+dds <- DESeqDataSetFromMatrix(countData = counts_data_hw,
+                              colData = colData_hw,
+                              design = ~ TC1)
+
+dds
+
+# pre-filtering (optional, but better for downstream analysis)
+keep <- rowSums(counts(dds)) >= 10
+dds <- dds[keep,]
+
+# set the factor level
+dds$TC1 <- relevel(dds$TC1, ref = "hypoxic warm")
+
+# run DESeq
+dds <- DESeq(dds)
+res <- results(dds)
+
+
+res
+# log2FoldChange - positive values are upregulated, negative values are downregulated in the hypoxic warm samples
+#lfcSE - standard error estimates
+# stat - Wald test values for the genes
+# padj - multiple testing correction - avoids detection of false-positives genes
+
+# exploring the results
+summary(res)
+resultsNames(dds) # "TC1_hypoxic.warm_vs_normoxic.warm" --> sarah has TC1_normoxic.warm_vs_hypoxic.warm
+# using results() and contrast argument you can also compare to other levels
+
+# visualization
+plotMA(res) # shows differentially expressed genes, colors=significant
+# in MA plot, would hope to see genes in upper or lower right = interesting candidates
+```
+
+```{r volcano plots}
+BiocManager::install("EnhancedVolcano")
+library(EnhancedVolcano)
+
+EnhancedVolcano(res,
+                lab=NA,
+                x='log2FoldChange',
+                y='pvalue')
 ```
 
 
