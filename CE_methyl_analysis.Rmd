@@ -302,7 +302,7 @@ plotMA(res) # shows differentially expressed genes, colors=significant
 # in MA plot, would hope to see genes in upper or lower right = interesting candidates
 ```
 
-```{r volcano plots}
+```{r volcano plots, echo=TRUE}
 BiocManager::install("EnhancedVolcano")
 library(EnhancedVolcano)
 
