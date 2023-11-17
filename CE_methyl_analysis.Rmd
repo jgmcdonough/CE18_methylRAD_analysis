@@ -301,7 +301,7 @@ resultsNames(dds) # "TC1_hypoxic.warm_vs_normoxic.warm" --> sarah has TC1_normox
 plotMA(res) # shows differentially expressed genes, colors=significant
 # in MA plot, would hope to see genes in upper or lower right = interesting candidates
 ```
-
+volcano plot from the above results
 ```{r volcano plots, echo=TRUE}
 BiocManager::install("EnhancedVolcano")
 library(EnhancedVolcano)
