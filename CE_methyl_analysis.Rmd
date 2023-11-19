@@ -312,4 +312,103 @@ EnhancedVolcano(res,
                 y='pvalue')
 ```
 
+looking at methylation difference between normoxic/warm vs hypoxic/ambient for treatment 1 (which is the volcano plot that Sarah included in the proposal)
+
+```{r normoxic.warm vs hypoxic.ambient treatment 1}
+colData_t1 = filter(colData, colData$TC1 == c("hypoxic ambient", "normoxic warm"))
+counts_t1 = counts_data[,colnames(counts_data) %in% colData_t1$unique_ID, drop=FALSE]
+
+counts_t1 = counts_t1[1:38828,]
+
+as.matrix(counts_t1)
+as.matrix(colData_t1)
+
+# create DESeqDataSet
+dds <- DESeqDataSetFromMatrix(countData = counts_t1,
+                              colData = colData_t1,
+                              design = ~ TC1)
+
+dds
+
+# pre-filtering (optional, but better for downstream analysis)
+keep <- rowSums(counts(dds)) >= 10
+dds <- dds[keep,]
+
+# set the factor level
+dds$TC1 <- relevel(dds$TC1, ref = "normoxic warm")
+
+# run DESeq
+dds <- DESeq(dds)
+res <- results(dds)
+
+
+res
+# log2FoldChange - positive values are upregulated, negative values are downregulated in the hypoxic warm samples
+#lfcSE - standard error estimates
+# stat - Wald test values for the genes
+# padj - multiple testing correction - avoids detection of false-positives genes
+
+# exploring the results
+summary(res)
+resultsNames(dds) # "TC1_hypoxic.warm_vs_normoxic.warm" --> sarah has TC1_normoxic.warm_vs_hypoxic.warm
+# using results() and contrast argument you can also compare to other levels
+
+# visualization
+plotMA(res) # shows differentially expressed genes, colors=significant
+# in MA plot, would hope to see genes in upper or lower right = interesting candidates
+
+EnhancedVolcano(res,
+                lab=NA,
+                x='log2FoldChange',
+                y='pvalue')
+```
+
+```{r normoxic.warm vs hypoxic.ambient treatment 2 when both normoxic ambient for treatment 1}
+colData_t1 = filter(colData, colData$TC1 == "normoxic ambient")
+counts_t1 = counts_data[,colnames(counts_data) %in% colData_t1$unique_ID, drop=FALSE]
+
+counts_t1 = counts_t1[1:38828,]
+
+as.matrix(counts_t1)
+as.matrix(colData_t1)
+
+# create DESeqDataSet
+dds <- DESeqDataSetFromMatrix(countData = counts_t1,
+                              colData = colData_t1,
+                              design = ~ TC2)
+
+dds
+
+# pre-filtering (optional, but better for downstream analysis)
+keep <- rowSums(counts(dds)) >= 10
+dds <- dds[keep,]
+
+# set the factor level
+dds$TC2 <- relevel(dds$TC2, ref = "normoxic ambient")
+
+# run DESeq
+dds <- DESeq(dds)
+res <- results(dds)
+
+
+res
+# log2FoldChange - positive values are upregulated, negative values are downregulated in the hypoxic warm samples
+#lfcSE - standard error estimates
+# stat - Wald test values for the genes
+# padj - multiple testing correction - avoids detection of false-positives genes
+
+# exploring the results
+summary(res)
+resultsNames(dds) # "TC1_hypoxic.warm_vs_normoxic.warm" --> sarah has TC1_normoxic.warm_vs_hypoxic.warm
+# using results() and contrast argument you can also compare to other levels
+
+# visualization
+plotMA(res) # shows differentially expressed genes, colors=significant
+# in MA plot, would hope to see genes in upper or lower right = interesting candidates
+
+EnhancedVolcano(res,
+                lab=NA,
+                x='log2FoldChange',
+                y='pvalue')
+```
 
