@@ -224,7 +224,8 @@ https://www.youtube.com/watch?v=OzNzO8qwwp0
 
 ```{r youtube tutorial; reading in data and processing}
 # reading in counts data
-counts_data <- read.csv("/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018/htseq_counts.csv")
+counts_data <- read.table("/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/assembly/pipeline_work_seq/bowtie2/htseq-counts/counts (1).txt", sep="\t")
+counts_data <- counts_data[-1,]
 # reading in column data
 colData <- read.csv("/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018/CV_CE18_meta.csv")
 
@@ -235,7 +236,7 @@ counts_data$genes <- NULL # deleting genes column
 rownames(colData) = colData$unique_ID
 rownames(colData)
 # changing column names of counts_data to match colData
-colnames(counts_data) = rownames(colData)
+colnames(counts_data) = c("genes",rownames(colData))
 colnames(counts_data)
 
 # should have same number of colData rows and counts_data columns and should be in the same order
