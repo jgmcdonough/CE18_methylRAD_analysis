@@ -10,14 +10,15 @@ This script includes all of the analysis done for the Crassostrea virginica meth
 ## installing packagees
 ```{r setup, include=FALSE}
 #install.packages("tidyverse")
-BiocManager::install("DESeq2")
+#BiocManager::install("DESeq2")
 library(tidyverse)
 library(DESeq2)
+library(EnhancedVolcano)
 
 
-if (!requireNamespace("stringr", quietly = TRUE)) {
-  install.packages("stringr")
-}
+#if (!requireNamespace("stringr", quietly = TRUE)) {
+#  install.packages("stringr")
+#}
 library(stringr)
 ```
 
@@ -411,5 +412,226 @@ EnhancedVolcano(res,
                 lab=NA,
                 x='log2FoldChange',
                 y='pvalue')
+```
+
+```{r t1 oxygen vs t2 oxygen}
+colData_o1 = filter(colData, colData$T1_oxygen == "normoxic")
+counts_o1 = counts_data[,colnames(counts_data) %in% colData_o1$unique_ID, drop=FALSE]
+
+counts_o1 = counts_o1[1:38828,]
+
+as.matrix(counts_o1)
+as.matrix(colData_o1)
+
+# create DESeqDataSet
+dds <- DESeqDataSetFromMatrix(countData = counts_o1,
+                              colData = colData_o1,
+                              design = ~ T2_oxygen)
+
+dds
+
+# pre-filtering (optional, but better for downstream analysis)
+keep <- rowSums(counts(dds)) >= 10
+dds <- dds[keep,]
+
+# set the factor level
+dds$T2_oxygen <- relevel(dds$T2_oxygen, ref = "hypoxic")
+
+# run DESeq
+dds <- DESeq(dds)
+res <- results(dds)
+
+
+res
+# log2FoldChange - positive values are upregulated, negative values are downregulated in the hypoxic warm samples
+#lfcSE - standard error estimates
+# stat - Wald test values for the genes
+# padj - multiple testing correction - avoids detection of false-positives genes
+
+# exploring the results
+summary(res)
+resultsNames(dds) # "TC1_hypoxic.warm_vs_normoxic.warm" --> sarah has TC1_normoxic.warm_vs_hypoxic.warm
+# using results() and contrast argument you can also compare to other levels
+
+# visualization
+plotMA(res) # shows differentially expressed genes, colors=significant
+# in MA plot, would hope to see genes in upper or lower right = interesting candidates
+
+EnhancedVolcano(res,
+                lab=NA,
+                x='log2FoldChange',
+                y='pvalue')
+```
+
+```{r t1 temp vs t2 oxygen}
+colData_t1 = filter(colData, colData$T1_temp == "ambient")
+counts_t1 = counts_data[,colnames(counts_data) %in% colData_t1$unique_ID, drop=FALSE]
+
+counts_t1 = counts_t1[1:38828,]
+
+as.matrix(counts_t1)
+as.matrix(colData_t1)
+
+# create DESeqDataSet
+dds <- DESeqDataSetFromMatrix(countData = counts_t1,
+                              colData = colData_t1,
+                              design = ~ T2_oxygen)
+
+dds
+
+# pre-filtering (optional, but better for downstream analysis)
+#keep <- rowSums(counts(dds)) >= 10
+#dds <- dds[keep,]
+
+# set the factor level
+dds$T2_oxygen <- relevel(dds$T2_oxygen, ref = "normoxic")
+
+# run DESeq
+dds <- DESeq(dds)
+res <- results(dds)
+
+
+res
+# log2FoldChange - positive values are upregulated, negative values are downregulated in the hypoxic warm samples
+#lfcSE - standard error estimates
+# stat - Wald test values for the genes
+# padj - multiple testing correction - avoids detection of false-positives genes
+
+# exploring the results
+summary(res)
+resultsNames(dds) # "TC1_hypoxic.warm_vs_normoxic.warm" --> sarah has TC1_normoxic.warm_vs_hypoxic.warm
+# using results() and contrast argument you can also compare to other levels
+
+# visualization
+plotMA(res) # shows differentially expressed genes, colors=significant
+# in MA plot, would hope to see genes in upper or lower right = interesting candidates
+
+EnhancedVolcano(res,
+                lab=NA,
+                x='log2FoldChange',
+                y='pvalue')
+```
+
+
+```{r t1 control vs t2 oxygen}
+colData_t1 = filter(colData, colData$TC1 == "normoxic ambient")
+counts_t1 = counts_data[,colnames(counts_data) %in% colData_t1$unique_ID, drop=FALSE]
+
+counts_t1 = counts_t1[1:38828,]
+
+as.matrix(counts_t1)
+as.matrix(colData_t1)
+
+# create DESeqDataSet
+dds <- DESeqDataSetFromMatrix(countData = counts_t1,
+                              colData = colData_t1,
+                              design = ~ T2_oxygen)
+
+dds
+
+# pre-filtering (optional, but better for downstream analysis)
+#keep <- rowSums(counts(dds)) >= 10
+#dds <- dds[keep,]
+
+# set the factor level
+dds$T2_oxygen <- relevel(dds$T2_oxygen, ref = "normoxic")
+
+# run DESeq
+dds <- DESeq(dds)
+res <- results(dds)
+
+
+res
+# log2FoldChange - positive values are upregulated, negative values are downregulated in the hypoxic warm samples
+#lfcSE - standard error estimates
+# stat - Wald test values for the genes
+# padj - multiple testing correction - avoids detection of false-positives genes
+
+# exploring the results
+summary(res)
+resultsNames(dds) # "TC1_hypoxic.warm_vs_normoxic.warm" --> sarah has TC1_normoxic.warm_vs_hypoxic.warm
+# using results() and contrast argument you can also compare to other levels
+
+# visualization
+plotMA(res) # shows differentially expressed genes, colors=significant
+# in MA plot, would hope to see genes in upper or lower right = interesting candidates
+
+EnhancedVolcano(res,
+                lab=NA,
+                x='log2FoldChange',
+                y='pvalue')
+```
+
+### troubleshooting - looking at hc_counts
+
+
+``` {r hc_counts}
+# reading in counts data
+counts_data <- read.table("/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018/hc_counts.txt", sep="\t")
+counts_data <- counts_data[-1,]
+# reading in column data
+colData <- read.csv("/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018/CV_CE18_meta.csv")
+
+## formatting ##
+# rownames of the colData becomes the short unique sample ID
+rownames(colData) = colData$unique_ID
+rownames(colData)
+# changing column names of counts_data to match colData
+colnames(counts_data) = c("genes","gbkey",rownames(colData))
+colnames(counts_data)
+# changing rownames of counts_data to have the gene names
+rownames(counts_data) = counts_data$genes
+counts_data$genes <- NULL # deleting genes column
+# deleting last 5 rows of counts_data (all the meta data of stuff not aligned)
+counts_data = counts_data[1:38828,]
+
+# should have same number of colData rows and counts_data columns and should be in the same order
+dim(counts_data) # 30 columns
+dim(colData) # 30 rows
+# are all colnames in counts_data in rownames in colData?
+all(rownames(colData) %in% colnames(counts_data)) # TRUE
+# are they all in the same order?
+all(rownames(colData) == colnames(counts_data[,2:31])) # TRUE
+
+# creating design factors
+colData$TC1 = paste(colData$T1_oxygen, colData$T1_temp)
+colData$TC2 = paste(colData$T2_oxygen, colData$T2_temp)
+```
+reading in gtf file
+```{r gtf_file}
+gtf_file <- "/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/assembly/reference_genomes/genomic.gtf"
+
+# Read GTF file with read.table
+gtf_data <- read.table(gtf_file, header = FALSE, sep = "\t", comment.char = "#", quote = "", stringsAsFactors = FALSE)
+
+# adding column names
+colnames(gtf_data) <- c("seqname", "source", "feature", "start", "end", "score", "strand", "frame", "attributes")
+
+# Print the first few rows of the data
+head(gtf_data)
+```
+
+```{r adding gbkey column to gtf data}
+# Define a function to extract gene_info from attributes
+extract_gene_info <- function(attribute_string) {
+  gbkey <- str_match(attribute_string, "gbkey \"([^\"]+)\"")[, 2]
+  return(gbkey)
+}
+
+# Apply the function to every element in the "attributes" column
+gtf_data$gbkey <- sapply(gtf_data$attributes, extract_gene_info)
+
+# Display the modified data frame
+head(gtf_data)
+
+# filtering gtf_file
+filtered_data <- gtf_data[gtf_data$gbkey %in% c("mRNA", "ncRNA", "misc_RNA", "tRNA"), ]
+
+## editing counts_data and gtf_data to line up genomic info? ##
+counts_data$gene_info = paste(rownames(counts_data), counts_data$gbkey)
+gtf_data$gene_info = paste(gtf_data$gene_id, gtf_data$gbkey)
+
+filter_gtf <- gtf_data[gtf_data$gene_info %in% counts_data$gene_info, ]
+
 ```
 
