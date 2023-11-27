@@ -24,7 +24,7 @@ This file includes all of the code used to quality check and clean sequences to 
 #### picard.jar
 This is the picard package in order to use picard tools to mark duplicates
 
-## CE_methyl_analyis
+## CE_methyl_analysis
 This folder includes all files used/needed for analysis of methylRAD sequences.
 
 #### CE_methyl_analysis.Rmd
