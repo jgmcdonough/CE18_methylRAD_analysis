@@ -1,0 +1,450 @@
+File: 2018--BBB-WBO-B21-CV_sorted.bam
+3368470 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+2974320 + 0 mapped (88.30% : N/A)
+3368470 + 0 paired in sequencing
+1684235 + 0 read1
+1684235 + 0 read2
+2923138 + 0 properly paired (86.78% : N/A)
+2966128 + 0 with itself and mate mapped
+8192 + 0 singletons (0.24% : N/A)
+4522 + 0 with mate mapped to a different chr
+290 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BBB-WBV-B70-CV_sorted.bam
+2972172 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+2600330 + 0 mapped (87.49% : N/A)
+2972172 + 0 paired in sequencing
+1486086 + 0 read1
+1486086 + 0 read2
+2555506 + 0 properly paired (85.98% : N/A)
+2593030 + 0 with itself and mate mapped
+7300 + 0 singletons (0.25% : N/A)
+3914 + 0 with mate mapped to a different chr
+264 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BBO-BBO-B16-CV_sorted.bam
+2386792 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+2107560 + 0 mapped (88.30% : N/A)
+2386792 + 0 paired in sequencing
+1193396 + 0 read1
+1193396 + 0 read2
+2068842 + 0 properly paired (86.68% : N/A)
+2101750 + 0 with itself and mate mapped
+5810 + 0 singletons (0.24% : N/A)
+3320 + 0 with mate mapped to a different chr
+223 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BBO-BBY-B27-CV_sorted.bam
+1595938 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+1405297 + 0 mapped (88.05% : N/A)
+1595938 + 0 paired in sequencing
+797969 + 0 read1
+797969 + 0 read2
+1381116 + 0 properly paired (86.54% : N/A)
+1401492 + 0 with itself and mate mapped
+3805 + 0 singletons (0.24% : N/A)
+2024 + 0 with mate mapped to a different chr
+146 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BBO-WBO-B16-CV_sorted.bam
+3452400 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+3025708 + 0 mapped (87.64% : N/A)
+3452400 + 0 paired in sequencing
+1726200 + 0 read1
+1726200 + 0 read2
+2971052 + 0 properly paired (86.06% : N/A)
+3017620 + 0 with itself and mate mapped
+8088 + 0 singletons (0.23% : N/A)
+4718 + 0 with mate mapped to a different chr
+356 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BBO-WBV-B64-CV_sorted.bam
+3141262 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+2762470 + 0 mapped (87.94% : N/A)
+3141262 + 0 paired in sequencing
+1570631 + 0 read1
+1570631 + 0 read2
+2715408 + 0 properly paired (86.44% : N/A)
+2754982 + 0 with itself and mate mapped
+7488 + 0 singletons (0.24% : N/A)
+4392 + 0 with mate mapped to a different chr
+262 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BBR-BBB-B50-CV_sorted.bam
+1326110 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+1168863 + 0 mapped (88.14% : N/A)
+1326110 + 0 paired in sequencing
+663055 + 0 read1
+663055 + 0 read2
+1148486 + 0 properly paired (86.61% : N/A)
+1165276 + 0 with itself and mate mapped
+3587 + 0 singletons (0.27% : N/A)
+1730 + 0 with mate mapped to a different chr
+158 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BBR-BBG-B38-CV_sorted.bam
+2526044 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+2225526 + 0 mapped (88.10% : N/A)
+2526044 + 0 paired in sequencing
+1263022 + 0 read1
+1263022 + 0 read2
+2186244 + 0 properly paired (86.55% : N/A)
+2219046 + 0 with itself and mate mapped
+6480 + 0 singletons (0.26% : N/A)
+3650 + 0 with mate mapped to a different chr
+296 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BBR-BBY-B26-CV_sorted.bam
+2338586 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+2058826 + 0 mapped (88.04% : N/A)
+2338586 + 0 paired in sequencing
+1169293 + 0 read1
+1169293 + 0 read2
+2023086 + 0 properly paired (86.51% : N/A)
+2053114 + 0 with itself and mate mapped
+5712 + 0 singletons (0.24% : N/A)
+3058 + 0 with mate mapped to a different chr
+245 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BBY-WBG-B42-CV_sorted.bam
+722584 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+640415 + 0 mapped (88.63% : N/A)
+722584 + 0 paired in sequencing
+361292 + 0 read1
+361292 + 0 read2
+628898 + 0 properly paired (87.03% : N/A)
+638146 + 0 with itself and mate mapped
+2269 + 0 singletons (0.31% : N/A)
+1034 + 0 with mate mapped to a different chr
+62 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BPO-BPO-O16-CV_sorted.bam
+293584 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+258690 + 0 mapped (88.11% : N/A)
+293584 + 0 paired in sequencing
+146792 + 0 read1
+146792 + 0 read2
+253568 + 0 properly paired (86.37% : N/A)
+257710 + 0 with itself and mate mapped
+980 + 0 singletons (0.33% : N/A)
+514 + 0 with mate mapped to a different chr
+49 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BPR-BPG-O38-CV_sorted.bam
+1556040 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+1372535 + 0 mapped (88.21% : N/A)
+1556040 + 0 paired in sequencing
+778020 + 0 read1
+778020 + 0 read2
+1348546 + 0 properly paired (86.67% : N/A)
+1368582 + 0 with itself and mate mapped
+3953 + 0 singletons (0.25% : N/A)
+2098 + 0 with mate mapped to a different chr
+163 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BPR-BPR-O02-CV_sorted.bam
+343628 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+303014 + 0 mapped (88.18% : N/A)
+343628 + 0 paired in sequencing
+171814 + 0 read1
+171814 + 0 read2
+297078 + 0 properly paired (86.45% : N/A)
+301776 + 0 with itself and mate mapped
+1238 + 0 singletons (0.36% : N/A)
+544 + 0 with mate mapped to a different chr
+73 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BPY-BPG-O42-CV_sorted.bam
+190588 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+167572 + 0 mapped (87.92% : N/A)
+190588 + 0 paired in sequencing
+95294 + 0 read1
+95294 + 0 read2
+164068 + 0 properly paired (86.09% : N/A)
+166872 + 0 with itself and mate mapped
+700 + 0 singletons (0.37% : N/A)
+334 + 0 with mate mapped to a different chr
+35 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--BPY-BPY-O29-CV_sorted.bam
+546654 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+482064 + 0 mapped (88.18% : N/A)
+546654 + 0 paired in sequencing
+273327 + 0 read1
+273327 + 0 read2
+472020 + 0 properly paired (86.35% : N/A)
+480438 + 0 with itself and mate mapped
+1626 + 0 singletons (0.30% : N/A)
+894 + 0 with mate mapped to a different chr
+87 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WBB-WBV-W69-CV_sorted.bam
+2939082 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+2564264 + 0 mapped (87.25% : N/A)
+2939082 + 0 paired in sequencing
+1469541 + 0 read1
+1469541 + 0 read2
+2519030 + 0 properly paired (85.71% : N/A)
+2556686 + 0 with itself and mate mapped
+7578 + 0 singletons (0.26% : N/A)
+4288 + 0 with mate mapped to a different chr
+273 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WBG-BBB-W56-CV_sorted.bam
+2575470 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+2263526 + 0 mapped (87.89% : N/A)
+2575470 + 0 paired in sequencing
+1287735 + 0 read1
+1287735 + 0 read2
+2222702 + 0 properly paired (86.30% : N/A)
+2256354 + 0 with itself and mate mapped
+7172 + 0 singletons (0.28% : N/A)
+3702 + 0 with mate mapped to a different chr
+289 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WBG-WBG-W44-CV_sorted.bam
+554832 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+487204 + 0 mapped (87.81% : N/A)
+554832 + 0 paired in sequencing
+277416 + 0 read1
+277416 + 0 read2
+478334 + 0 properly paired (86.21% : N/A)
+485438 + 0 with itself and mate mapped
+1766 + 0 singletons (0.32% : N/A)
+858 + 0 with mate mapped to a different chr
+67 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WBO-BBR-W03-CV_sorted.bam
+206928 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+180882 + 0 mapped (87.41% : N/A)
+206928 + 0 paired in sequencing
+103464 + 0 read1
+103464 + 0 read2
+176826 + 0 properly paired (85.45% : N/A)
+179926 + 0 with itself and mate mapped
+956 + 0 singletons (0.46% : N/A)
+358 + 0 with mate mapped to a different chr
+40 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WBO-WBV-W64-CV_sorted.bam
+2319296 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+2025862 + 0 mapped (87.35% : N/A)
+2319296 + 0 paired in sequencing
+1159648 + 0 read1
+1159648 + 0 read2
+1990448 + 0 properly paired (85.82% : N/A)
+2020224 + 0 with itself and mate mapped
+5638 + 0 singletons (0.24% : N/A)
+3166 + 0 with mate mapped to a different chr
+206 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WBR-BBY-W25-CV_sorted.bam
+808770 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+710810 + 0 mapped (87.89% : N/A)
+808770 + 0 paired in sequencing
+404385 + 0 read1
+404385 + 0 read2
+697600 + 0 properly paired (86.25% : N/A)
+708370 + 0 with itself and mate mapped
+2440 + 0 singletons (0.30% : N/A)
+1192 + 0 with mate mapped to a different chr
+91 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WBV-WBO-W23-CV_sorted.bam
+897186 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+792516 + 0 mapped (88.33% : N/A)
+897186 + 0 paired in sequencing
+448593 + 0 read1
+448593 + 0 read2
+777956 + 0 properly paired (86.71% : N/A)
+789870 + 0 with itself and mate mapped
+2646 + 0 singletons (0.29% : N/A)
+1278 + 0 with mate mapped to a different chr
+115 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WBV-WBR-W12-CV_sorted.bam
+278164 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+244396 + 0 mapped (87.86% : N/A)
+278164 + 0 paired in sequencing
+139082 + 0 read1
+139082 + 0 read2
+240138 + 0 properly paired (86.33% : N/A)
+243610 + 0 with itself and mate mapped
+786 + 0 singletons (0.28% : N/A)
+360 + 0 with mate mapped to a different chr
+26 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WBY-BBV-W65-CV_sorted.bam
+2206406 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+1933006 + 0 mapped (87.61% : N/A)
+2206406 + 0 paired in sequencing
+1103203 + 0 read1
+1103203 + 0 read2
+1896784 + 0 properly paired (85.97% : N/A)
+1927206 + 0 with itself and mate mapped
+5800 + 0 singletons (0.26% : N/A)
+3306 + 0 with mate mapped to a different chr
+214 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WBY-BBY-W30-CV_sorted.bam
+1395276 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+1226970 + 0 mapped (87.94% : N/A)
+1395276 + 0 paired in sequencing
+697638 + 0 read1
+697638 + 0 read2
+1204330 + 0 properly paired (86.31% : N/A)
+1222940 + 0 with itself and mate mapped
+4030 + 0 singletons (0.29% : N/A)
+1942 + 0 with mate mapped to a different chr
+152 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WPB-BPG-G45-CV_sorted.bam
+1289296 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+1112362 + 0 mapped (86.28% : N/A)
+1289296 + 0 paired in sequencing
+644648 + 0 read1
+644648 + 0 read2
+1092206 + 0 properly paired (84.71% : N/A)
+1109174 + 0 with itself and mate mapped
+3188 + 0 singletons (0.25% : N/A)
+1782 + 0 with mate mapped to a different chr
+132 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WPO-BPO-G16-CV_sorted.bam
+838312 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+738247 + 0 mapped (88.06% : N/A)
+838312 + 0 paired in sequencing
+419156 + 0 read1
+419156 + 0 read2
+724382 + 0 properly paired (86.41% : N/A)
+735862 + 0 with itself and mate mapped
+2385 + 0 singletons (0.28% : N/A)
+1376 + 0 with mate mapped to a different chr
+111 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WPO-BPY-G28-CV_sorted.bam
+534124 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+466588 + 0 mapped (87.36% : N/A)
+534124 + 0 paired in sequencing
+267062 + 0 read1
+267062 + 0 read2
+458404 + 0 properly paired (85.82% : N/A)
+465056 + 0 with itself and mate mapped
+1532 + 0 singletons (0.29% : N/A)
+1012 + 0 with mate mapped to a different chr
+155 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WPR-BPY-G25-CV_sorted.bam
+1446544 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+1278771 + 0 mapped (88.40% : N/A)
+1446544 + 0 paired in sequencing
+723272 + 0 read1
+723272 + 0 read2
+1255342 + 0 properly paired (86.78% : N/A)
+1274714 + 0 with itself and mate mapped
+4057 + 0 singletons (0.28% : N/A)
+2062 + 0 with mate mapped to a different chr
+159 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
+File: 2018--WPV-BPR-G11-CV_sorted.bam
+238574 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+210783 + 0 mapped (88.35% : N/A)
+238574 + 0 paired in sequencing
+119287 + 0 read1
+119287 + 0 read2
+207374 + 0 properly paired (86.92% : N/A)
+210160 + 0 with itself and mate mapped
+623 + 0 singletons (0.26% : N/A)
+376 + 0 with mate mapped to a different chr
+37 + 0 with mate mapped to a different chr (mapQ>=5)
+---------------------------
