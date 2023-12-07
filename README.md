@@ -30,18 +30,18 @@ Jupyter notebook for data analysis using DESeq2.
 
 #### counts_and_meta
 Folder containing all files needed as input for analysis. These include:
-- counts_exon.txt: counts matrix generated with htseq-counts with type=exon.
-- counts_gene.txt: counts matrix generated with htseq-counts with type=gene.
-- CV_CE18_meta.csv: table containing the meta data for the CV samples.
+- **counts_exon.txt:** counts matrix generated with htseq-counts with type=exon.
+- **counts_gene.txt:** counts matrix generated with htseq-counts with type=gene.
+- **CV_CE18_meta.csv:** table containing the meta data for the CV samples.
 
 #### figures
 Folder containing all of the figures and plots produced from analysis with DESeq2. 
 
 #### significant_genes
 Folder containing csv files generated from DESeq analysis for identified significant genes for that treatment.
-- sig_hw_genes.csv: data table with info for sig. genes for all hypoxic warm treatment 2 samples and comparing treatment 1 methylation.
-- sig_T1_temp.csv: data table with info for sig. genes for warm vs. ambient samples for treatment 1.
-- sig_TC1_normoxic.warm_vs_hypoxic.ambient.csv: data table with info for sig. genes for normoxic warrm vs. hypoxic ambient for treatment 1.
+- **sig_hw_genes.csv:** data table with info for sig. genes for all hypoxic warm treatment 2 samples and comparing treatment 1 methylation.
+- **sig_T1_temp.csv:** data table with info for sig. genes for warm vs. ambient samples for treatment 1.
+- **sig_TC1_normoxic.warm_vs_hypoxic.ambient.csv:** data table with info for sig. genes for normoxic warrm vs. hypoxic ambient for treatment 1.
 
 ## pipeline_counts
 This folder contains all files used/needed for pipeline read counts for each sample.
