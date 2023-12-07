@@ -21,26 +21,27 @@ This file includes all of the code used to quality check and clean sequences to 
 7. indexing sorted BAM files
 8. using htseq-counts to record the number of counts for each feature 
 
-#### picard.jar
-This is the picard package in order to use picard tools to mark duplicates
 
 ## CE_methyl_analysis
 This folder includes all files used/needed for analysis of methylRAD sequences.
 
-#### CE_methyl_analysis.Rmd
-R script for data analysis using DESeq2.
-
 #### CE_methyl_analysis.ipynb
 Jupyter notebook for data analysis using DESeq2.
 
-#### CV_CE18_meta.csv
-Table containing the meta data for the CV samples.
+#### counts_and_meta
+Folder containing all files needed as input for analysis. These include:
+- counts_exon.txt: counts matrix generated with htseq-counts with type=exon.
+- counts_gene.txt: counts matrix generated with htseq-counts with type=gene.
+- CV_CE18_meta.csv: table containing the meta data for the CV samples.
 
-#### htseq_counts.csv
-Table containing number of reads at each feature, output from htseq-counts.
+#### figures
+Folder containing all of the figures and plots produced from analysis with DESeq2. 
 
-#### hc_counts.txt
-Text file of htseq-counts matrix, including gbkey attribute column.
+#### significant_genes
+Folder containing csv files generated from DESeq analysis for identified significant genes for that treatment.
+- sig_hw_genes.csv: data table with info for sig. genes for all hypoxic warm treatment 2 samples and comparing treatment 1 methylation.
+- sig_T1_temp.csv: data table with info for sig. genes for warm vs. ambient samples for treatment 1.
+- sig_TC1_normoxic.warm_vs_hypoxic.ambient.csv: data table with info for sig. genes for normoxic warrm vs. hypoxic ambient for treatment 1.
 
 ## pipeline_counts
 This folder contains all files used/needed for pipeline read counts for each sample.
