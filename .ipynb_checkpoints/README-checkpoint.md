@@ -1,8 +1,9 @@
 # CE_MethylRAD_analysis_2018
 carryover effects DNA methylation analysis for eastern oysters (Crassostrea virginica) using MethylRAD - samples and sequences from Sarah Gignoux-Wolfsohn in 2018
 
-Reference Genome used: 
+**Reference Genome files used:**
 NCBI RefSeq assembly: GCF_002022765.2 https://www.ncbi.nlm.nih.gov/genome/annotation_euk/Crassostrea_virginica/100/
+
 GTF file: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002022765.2/
 
 ## CE_methyl_QC
