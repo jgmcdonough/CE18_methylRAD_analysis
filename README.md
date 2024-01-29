@@ -6,16 +6,16 @@ NCBI RefSeq assembly: GCF_002022765.2 https://www.ncbi.nlm.nih.gov/genome/annota
 
 GTF file: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002022765.2/
 
-## analysis folder
+## [analysis folder](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis)
 contains scripts and generated data files/figures from the various analyses
-- **Differential Methylation Analysis** - identified significantly differentially methylated genes between treatments
-- **GO enrichment analysis** - matching gene ontology (GO) terms with significant differentially methylated genes, and testing for enrichment of GO terms
-- **KEGG pathway analysis** - aligning identified significant genes to pathways with KEGG
+- **[Differential Methylation Analysis](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/diff_methylation_analysis)** - identified significantly differentially methylated genes between treatments
+- **[GO enrichment analysis](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/GO_enrichment_analysis)** - matching gene ontology (GO) terms with significant differentially methylated genes, and testing for enrichment of GO terms
+- **[KEGG pathway analysis](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/KEGG_pathway)** - aligning identified significant genes to pathways with KEGG
 
-## pipeline counts folder
+## [pipeline counts folder](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/pipeline_counts)
 contains scripts and files of sequences counts per sample for each step in quality pipeline
 
-## quality check folder
+## [quality check folder](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/quality_check)
 contains scripts and files used to quality check sequences in prep for analysis
 
 
