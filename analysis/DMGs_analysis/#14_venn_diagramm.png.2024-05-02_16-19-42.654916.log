@@ -1,0 +1,13 @@
+INFO [2024-05-02 16:19:42] $x
+INFO [2024-05-02 16:19:42] list(p1wc_genes, p1c_p2hc_genes, p1h_p2hc_genes, p1ch_p2c_genes)
+INFO [2024-05-02 16:19:42] 
+INFO [2024-05-02 16:19:42] $category.names
+INFO [2024-05-02 16:19:42] c("phase 1 warm vs. cont", "phase 1 cont, phase 2 hyp/cont ", 
+INFO [2024-05-02 16:19:42]     "phase 1 hyp, phase 2 hyp/cont", "phase 1 hyp/cont, phase 2 cont")
+INFO [2024-05-02 16:19:42] 
+INFO [2024-05-02 16:19:42] $filename
+INFO [2024-05-02 16:19:42] [1] "#14_venn_diagramm.png"
+INFO [2024-05-02 16:19:42] 
+INFO [2024-05-02 16:19:42] $output
+INFO [2024-05-02 16:19:42] [1] TRUE
+INFO [2024-05-02 16:19:42] 
