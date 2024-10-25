@@ -10,3 +10,9 @@ This folder contains the DESeq results for each of the pairwise comparisons, con
 - HH vs. HC = hypoxic hypoxic vs. hypoxic control
 - Hx vs. Cx = phase 1 hypoxic vs. phase 1 control (ignoring effects of phase 2)
 - xH vs. xC = phase 2 hypoxic vs. phase 2 control (ignoring effects of phase 1)
+
+
+any csv with 'WO' in the front stands for **without**, as in, removal of 'outlier' sample (WBO-BBR-W03) that was identified in the NMDS plots. I did the same analysis without it to see if there were any major changes in the analysis by removing it. 
+
+
+csv files with KEGG at the beginning are enriched pathways identified from the differentially methylated genes in that pairwise comparison.
