@@ -18,3 +18,6 @@ Counts matrix of meta-features that is used for DESeq analysis.
 
 ### counts_meta.csv
 Like counts_formatted.csv but contains information from the GFF file (chromosome, start and end position, gene_id info, etc.
+
+### fc_feature_counts.txt
+matrix for features i.e., exons
