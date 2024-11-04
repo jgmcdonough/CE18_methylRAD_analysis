@@ -12,5 +12,9 @@ All resulting CSV files are based on this venn diagram visual of overlap of DMGs
 
 
 
+the number at the beginning of the CSV file name indicates the number of genes as seen in the venn diagram 
+
+
+
 
 
