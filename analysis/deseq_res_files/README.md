@@ -25,3 +25,7 @@ Enriched KEGG pathways for a pairwise comparison. CSV files were generated from 
 
 ### [sig_DMGs_gene_names](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/sig_DMGs_gene_names)
 DESeq results of differential methylated genes from pairwise comparisons. Same as DMGs, but *only* contains significant DMGs and associated gene names from the [NCBI C. virginica index database](https://ftp.ncbi.nlm.nih.gov/genomes/all/annotation_releases/6565/100/GCF_002022765.2_C_virginica-3.0/). CSV files were generated from [HC_genes.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes.ipynb)
+
+
+### [venn_genes](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/venn_genes)
+CSVs of unique and shared significantly differentially methylated genes from pairwise comparisons that were seen in a Venn diagram.
