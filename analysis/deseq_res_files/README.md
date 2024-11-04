@@ -28,4 +28,4 @@ DESeq results of differential methylated genes from pairwise comparisons. Same a
 
 
 ### [venn_genes](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/venn_genes)
-CSVs of unique and shared significantly differentially methylated genes from pairwise comparisons that were seen in a Venn diagram.
+CSVs of unique and shared significantly differentially methylated genes from pairwise comparisons that were seen in a Venn diagram. CSV files were generated from [HC_genes.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes.ipynb)
