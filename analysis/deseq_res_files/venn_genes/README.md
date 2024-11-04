@@ -8,7 +8,7 @@ DMGs were first identified in [DESeq_analysis.ipynb](https://github.com/jgmcdono
 
 All resulting CSV files are based on this venn diagram visual of overlap of DMGs in pairwise comparisons:
 
-![image](/project/pi_sarah_gignouxwolfsohn_uml_edu/julia/CE_MethylRAD_analysis_2018/analysis/deseq_res_files/venn_genes/venn_diagram.png)
+![image](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/deseq_res_files/venn_genes/venn_diagram.png?raw=true)
 
 
 
