@@ -1,0 +1,304 @@
+,symbol,name,DMG_pair_vs_HC
+1,LOC111103340,uncharacterized LOC111103340,"CC, CH, HH"
+2,LOC111117760,"disintegrin and metalloproteinase domain-containing protein 10-like, transcript variant X3","CC, CH, HH"
+3,LOC111119327,"calcyphosin-like protein, transcript variant X3","CC, CH, HH"
+4,LOC111123492,"pre-B-cell leukemia transcription factor 1-like, transcript variant X11","CC, CH, HH"
+5,LOC111124465,"elongation factor G, mitochondrial-like","CC, CH, HH"
+6,LOC111124669,"serine/threonine-protein kinase SIK3-like, transcript variant X1","CC, CH, HH"
+7,LOC111124674,"gamma-glutamyltranspeptidase 1-like, transcript variant X1","CC, CH, HH"
+8,LOC111124759,protein unc-50 homolog,"CC, CH, HH"
+9,LOC111126993,"SH3 and cysteine-rich domain-containing protein 3-like, transcript variant X2","CC, CH, HH"
+10,LOC111129146,FERM domain-containing protein 8-like,"CC, CH, HH"
+11,LOC111133260,tyrosine-protein phosphatase non-receptor type 5-like,"CC, CH, HH"
+12,LOC111133892,N-terminal EF-hand calcium-binding protein 1-like,"CC, CH, HH"
+13,LOC111136185,importin-5-like,"CC, CH, HH"
+14,LOC111138233,"uncharacterized LOC111138233, transcript variant X1","CC, CH, HH"
+,LOC111099029,transient receptor potential cation channel subfamily M member 6-like,CH
+,LOC111099585,lys-63-specific deubiquitinase BRCC36-like,CH
+,LOC111099623,"methionine--tRNA ligase, mitochondrial-like",CH
+,LOC111100220,"proteasomal ATPase-associated factor 1-like, transcript variant X2",CH
+,LOC111100492,"uncharacterized LOC111100492, transcript variant X1",CH
+,LOC111101148,"ADP-ribosylation factor GTPase-activating protein 2-like, transcript variant X1",CH
+,LOC111101764,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 4, mitochondrial-like",CH
+,LOC111101925,protein DJ-1-like,CH
+,LOC111102525,"ATP-binding cassette sub-family B member 7, mitochondrial-like, transcript variant X1",CH
+,LOC111103260,glucose-6-phosphate exchanger SLC37A4-like,CH
+,LOC111103273,"T-complex protein 11-like protein 1, transcript variant X1",CH
+,LOC111103294,"wiskott-Aldrich syndrome protein family member 2-like, transcript variant X1",CH
+,LOC111103326,"glycoprotein endo-alpha-1,2-mannosidase-like",CH
+,LOC111103366,"prickle-like protein 3, transcript variant X1",CH
+,LOC111103625,"transmembrane protein 39A-like, transcript variant X3",CH
+,LOC111104302,"tyrosine-protein kinase JAK2-like, transcript variant X2",CH
+,LOC111104327,MAM and LDL-receptor class A domain-containing protein 2-like,CH
+,LOC111104335,tyrosine-protein kinase JAK2-like,CH
+,LOC111104434,"polycomb protein SCMH1-like, transcript variant X2",CH
+,LOC111105060,uncharacterized protein DDB_G0271670-like,CH
+,LOC111106504,"RNA polymerase II-associated protein 3-like, transcript variant X2",CH
+,LOC111106577,rab GDP dissociation inhibitor beta-like,CH
+,LOC111106930,plasma alpha-L-fucosidase-like,CH
+,LOC111106958,"E3 ubiquitin-protein ligase Trim36-like, transcript variant X2",CH
+,LOC111107584,ATP-dependent RNA helicase DDX54-like,CH
+,LOC111107706,uncharacterized LOC111107706,CH
+,LOC111107815,"leucine-rich repeat-containing protein 74A-like, transcript variant X1",CH
+,LOC111108287,TBC1 domain family member 9-like,CH
+,LOC111109530,uncharacterized LOC111109530,CH
+,LOC111110350,voltage-dependent calcium channel type D subunit alpha-1-like,CH
+,LOC111111088,proteasome activator complex subunit 3-like,CH
+,LOC111111498,"uncharacterized LOC111111498, transcript variant X2",CH
+,LOC111111877,uncharacterized LOC111111877,CH
+,LOC111112319,"ADP-ribosylation factor 2, transcript variant X1",CH
+,LOC111112794,"polypeptide N-acetylgalactosaminyltransferase 5-like, transcript variant X2",CH
+,LOC111112938,wolframin-like,CH
+,LOC111113121,PMS1 protein homolog 1-like,CH
+,LOC111113122,"sodium-dependent glucose transporter 1C-like, transcript variant X2",CH
+,LOC111114131,uncharacterized LOC111114131,CH
+,LOC111115628,"uncharacterized LOC111115628, transcript variant X1",CH
+,LOC111116582,zinc finger protein 862-like,CH
+,LOC111117059,uncharacterized LOC111117059,CH
+,LOC111117764,"protein FAM76B-like, transcript variant X3",CH
+,LOC111117902,"uncharacterized LOC111117902, transcript variant X3",CH
+,LOC111118623,"uncharacterized LOC111118623, transcript variant X2",CH
+,LOC111118703,ERI1 exoribonuclease 2-like,CH
+,LOC111118943,uncharacterized LOC111118943,CH
+,LOC111119093,"nuclear transcription factor Y subunit gamma-like, transcript variant X1",CH
+,LOC111119108,"3-phosphoinositide-dependent protein kinase 1-like, transcript variant X1",CH
+,LOC111119134,uncharacterized LOC111119134,CH
+,LOC111119190,"ornithine decarboxylase-like, transcript variant X1",CH
+,LOC111119195,"heterogeneous nuclear ribonucleoprotein D-like, transcript variant X2",CH
+,LOC111119646,PCNA-interacting partner-like,CH
+,LOC111119689,rapamycin-insensitive companion of mTOR-like,CH
+,LOC111119809,ATP-dependent Clp protease proteolytic subunit-like,CH
+,LOC111119994,"transcription factor E2F3-like, transcript variant X2",CH
+,LOC111120086,fizzy-related protein homolog,CH
+,LOC111120124,uncharacterized LOC111120124,CH
+,LOC111120188,uncharacterized LOC111120188,CH
+,LOC111120343,uncharacterized LOC111120343,CH
+,LOC111120509,"putative sodium-coupled neutral amino acid transporter 10, transcript variant X1",CH
+,LOC111120566,piwi-like protein 1,CH
+,LOC111120602,ADP-ribosylation factor GTPase-activating protein 1-like,CH
+,LOC111120680,dual specificity testis-specific protein kinase 2-like,CH
+,LOC111120856,"core histone macro-H2A.1-like, transcript variant X2",CH
+,LOC111120860,DNA excision repair protein ERCC-8-like,CH
+,LOC111120950,"uncharacterized LOC111120950, transcript variant X2",CH
+,LOC111120962,zinc finger protein 862-like,CH
+,LOC111120996,F-box only protein 16-like,CH
+,LOC111121267,"N-alpha-acetyltransferase 25, NatB auxiliary subunit-like",CH
+,LOC111121375,"inactive rhomboid protein 1-like, transcript variant X1",CH
+,LOC111121529,coiled-coil domain-containing protein 178-like,CH
+,LOC111121655,"uncharacterized LOC111121655, transcript variant X5",CH
+,LOC111121829,zinc finger protein 511-like,CH
+,LOC111121958,suppressor of SWI4 1 homolog,CH
+,LOC111122163,DNA (cytosine-5)-methyltransferase 3C-like,CH
+,LOC111122335,tyrosine-protein kinase SYK-like,CH
+,LOC111122629,"rab GTPase-activating protein 1-like, transcript variant X1",CH
+,LOC111122773,"uncharacterized protein KIAA2012 homolog, transcript variant X22",CH
+,LOC111123084,ecdysone-induced protein 78C-like,CH
+,LOC111123423,"low affinity vacuolar monovalent cation/H(+) antiporter-like, transcript variant X2",CH
+,LOC111123447,uncharacterized LOC111123447,CH
+,LOC111123684,putative hydrolase RBBP9,CH
+,LOC111123852,DNA (cytosine-5)-methyltransferase 1-like,CH
+,LOC111123963,microspherule protein 1-like,CH
+,LOC111124014,vacuolar protein sorting-associated protein 8 homolog,CH
+,LOC111124543,"serine/threonine kinase-like domain-containing protein STKLD1, transcript variant X1",CH
+,LOC111124649,rho GTPase-activating protein 26-like,CH
+,LOC111124662,"exocyst complex component 1-like, transcript variant X1",CH
+,LOC111124733,probable RNA-binding protein 18,CH
+,LOC111125007,uncharacterized LOC111125007,CH
+,LOC111125280,protein SMG7-like,CH
+,LOC111125349,protocadherin-11 X-linked-like,CH
+,LOC111125375,"uncharacterized LOC111125375, transcript variant X5",CH
+,LOC111125498,cytoplasmic FMR1-interacting protein 1-like,CH
+,LOC111125544,"sodium-dependent phosphate transporter 1-A-like, transcript variant X5",CH
+,LOC111125665,"valine--tRNA ligase-like, transcript variant X2",CH
+,LOC111125807,MBT domain-containing protein 1-like,CH
+,LOC111125909,"probable RNA-binding protein 18, transcript variant X2",CH
+,LOC111125954,"ubiquitin carboxyl-terminal hydrolase 20-like, transcript variant X1",CH
+,LOC111126129,"A-kinase anchor protein 17A-like, transcript variant X1",CH
+,LOC111126203,"calcium uptake protein 3, mitochondrial-like, transcript variant X4",CH
+,LOC111126281,40S ribosomal protein S18,CH
+,LOC111126732,"A-kinase anchor protein 17A-like, transcript variant X1",CH
+,LOC111127420,DNA-binding protein SMUBP-2-like,CH
+,LOC111127769,"30S ribosomal protein S11-like, transcript variant X4",CH
+,LOC111127772,COP9 signalosome complex subunit 2,CH
+,LOC111127947,"3-ketoacyl-CoA thiolase, mitochondrial-like",CH
+,LOC111128050,"polypeptide N-acetylgalactosaminyltransferase 2-like, transcript variant X1",CH
+,LOC111128227,"tyrosine-protein phosphatase non-receptor type 9-like, transcript variant X1",CH
+,LOC111128361,elongation factor Tu-like,CH
+,LOC111128374,"coiled-coil domain-containing protein 124-like, transcript variant X1",CH
+,LOC111128934,"transcription regulator protein BACH1-like, transcript variant X1",CH
+,LOC111128942,"sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1-like",CH
+,LOC111129197,enhancer of mRNA-decapping protein 3-like,CH
+,LOC111129494,"peptidyl-prolyl cis-trans isomerase FKBP2-like, transcript variant X1",CH
+,LOC111129611,uncharacterized LOC111129611,CH
+,LOC111129907,"transcription factor SPT20 homolog, transcript variant X3",CH
+,LOC111129934,"malate dehydrogenase, cytoplasmic-like",CH
+,LOC111129952,protein dispatched homolog 1-like,CH
+,LOC111130055,"acyl-CoA:lysophosphatidylglycerol acyltransferase 1-like, transcript variant X3",CH
+,LOC111130094,60S ribosomal protein L4-like,CH
+,LOC111130181,mediator of RNA polymerase II transcription subunit 27-A-like,CH
+,LOC111130189,acid phosphatase type 7-like,CH
+,LOC111130209,"coiled-coil domain-containing protein 171-like, transcript variant X3",CH
+,LOC111130452,thioredoxin domain-containing protein 16-like,CH
+,LOC111130560,"ATP-binding cassette sub-family D member 4-like, transcript variant X1",CH
+,LOC111130607,"thyroid adenoma-associated protein homolog, transcript variant X1",CH
+,LOC111131058,"cyclin-K-like, transcript variant X1",CH
+,LOC111131170,retinol dehydrogenase 12-like,CH
+,LOC111131315,signal recognition particle 54 kDa protein-like,CH
+,LOC111131337,uncharacterized LOC111131337,CH
+,LOC111132075,acetyl-coenzyme A transporter 1-like,CH
+,LOC111132109,VPS9 domain-containing protein 1-like,CH
+,LOC111132155,"transmembrane protein 117-like, transcript variant X2",CH
+,LOC111132673,poly [ADP-ribose] polymerase 14-like,CH
+,LOC111132852,UPF0061 protein azo1574-like,CH
+,LOC111132909,protein FAM45A-like,CH
+,LOC111133074,"39S ribosomal protein L35, mitochondrial-like, transcript variant X2",CH
+,LOC111133086,"uncharacterized LOC111133086, transcript variant X1",CH
+,LOC111133107,tribbles homolog 2-like,CH
+,LOC111133163,U3 small nucleolar RNA-associated protein 4 homolog,CH
+,LOC111133751,translationally-controlled tumor protein homolog,CH
+,LOC111133985,zinc finger CCCH domain-containing protein 18-like,CH
+,LOC111134206,"little elongation complex subunit 2-like, transcript variant X2",CH
+,LOC111134216,"eukaryotic translation initiation factor 3 subunit A-like, transcript variant X2",CH
+,LOC111134568,"protein naked cuticle homolog 2-like, transcript variant X2",CH
+,LOC111134580,zinc transporter ZIP13-like,CH
+,LOC111134719,ubiquitin carboxyl-terminal hydrolase 32-like,CH
+,LOC111134768,alpha-centractin,CH
+,LOC111135177,"slit homolog 3 protein-like, transcript variant X2",CH
+,LOC111135228,transmembrane protein 192-like,CH
+,LOC111135253,"calmodulin-binding transcription activator 1-like, transcript variant X5",CH
+,LOC111135390,uncharacterized LOC111135390,CH
+,LOC111135548,E3 ubiquitin-protein ligase RNF31-like,CH
+,LOC111135571,"piwi-like protein 1, transcript variant X4",CH
+,LOC111135575,ran-binding protein 9-like,CH
+,LOC111135820,cysteinyl leukotriene receptor 2-like,CH
+,LOC111135856,cytochrome P450 4F6-like,CH
+,LOC111135994,"glycerophosphodiester phosphodiesterase domain-containing protein 5-like, transcript variant X2",CH
+,LOC111136099,ATM interactor-like,CH
+,LOC111136201,TRAF-type zinc finger domain-containing protein 1-like,CH
+,LOC111136316,uncharacterized LOC111136316,CH
+,LOC111136327,endoplasmic reticulum resident protein 29-like,CH
+,LOC111136587,xanthine dehydrogenase-like,CH
+,LOC111136882,isochorismatase domain-containing protein 2-like,CH
+,LOC111136938,guanine nucleotide-binding protein subunit beta,CH
+,LOC111137482,adenosine deaminase domain-containing protein 1-like,CH
+,LOC111137552,"DDB1- and CUL4-associated factor 11-like, transcript variant X2",CH
+,LOC111137579,heat shock 70 kDa protein 13-like,CH
+,LOC111137641,suppressor of cytokine signaling 4-like,CH
+,LOC111138200,potassium voltage-gated channel protein egl-36-like,CH
+,LOC111138462,"thiamin pyrophosphokinase 1-like, transcript variant X1",CH
+,LOC111117745,"uncharacterized LOC111117745, transcript variant X5",CC
+,LOC111129122,"Bardet-Biedl syndrome 12 protein homolog, transcript variant X2",CC
+,LOC111099928,uncharacterized LOC111099928,HH
+,LOC111101122,lysophospholipid acyltransferase 7-like,HH
+,LOC111103618,"protein phosphatase 1 regulatory subunit 32-like, transcript variant X2",HH
+,LOC111104153,X-ray repair cross-complementing protein 5-like,HH
+,LOC111109809,peroxisome proliferator-activated receptor delta-like,HH
+,LOC111110897,"E3 ubiquitin-protein ligase TRIM71-like, transcript variant X1",HH
+,LOC111111169,zinc finger FYVE domain-containing protein 1-like,HH
+,LOC111111680,"uncharacterized LOC111111680, transcript variant X1",HH
+,LOC111112656,uncharacterized LOC111112656,HH
+,LOC111115479,ras-related protein Rab-31-like,HH
+,LOC111115741,"solute carrier family 28 member 3-like, transcript variant X2",HH
+,LOC111116124,"plexin domain-containing protein 1-like, transcript variant X2",HH
+,LOC111117306,zinc finger protein 239-like,HH
+,LOC111119639,protein LTV1 homolog,HH
+,LOC111119775,protein CLEC16A-like,HH
+,LOC111120498,uncharacterized LOC111120498,HH
+,LOC111121129,mapk-regulated corepressor-interacting protein 1-like,HH
+,LOC111121187,gastrula zinc finger protein XlCGF52.1-like,HH
+,LOC111121972,ran-binding protein 3-like,HH
+,LOC111122141,cystathionine gamma-lyase-like,HH
+,LOC111122360,inactive rhomboid protein 1-like,HH
+,LOC111122577,uncharacterized LOC111122577,HH
+,LOC111124781,zinc transporter 9-like,HH
+,LOC111124824,uncharacterized LOC111124824,HH
+,LOC111125123,"retinoic acid receptor beta-like, transcript variant X1",HH
+,LOC111126815,vesicle-fusing ATPase 1-like,HH
+,LOC111127067,"etoposide-induced protein 2.4 homolog, transcript variant X1",HH
+,LOC111127288,parafibromin-like,HH
+,LOC111127404,angiopoietin-4-like,HH
+,LOC111127492,multifunctional protein ADE2-like,HH
+,LOC111128157,HCLS1-associated protein X-1-like,HH
+,LOC111128314,uncharacterized LOC111128314,HH
+,LOC111128868,myc box-dependent-interacting protein 1-like,HH
+,LOC111130374,deleted in malignant brain tumors 1 protein-like,HH
+,LOC111130485,"GRIP and coiled-coil domain-containing protein 1-like, transcript variant X2",HH
+,LOC111130593,WD repeat-containing protein 93-like,HH
+,LOC111130743,oxysterol-binding protein-related protein 1-like,HH
+,LOC111131105,importin-11-like,HH
+,LOC111131546,probable ATP-dependent RNA helicase DDX52,HH
+,LOC111133731,INO80 complex subunit B-like,HH
+,LOC111135192,adenosylhomocysteinase A-like,HH
+,LOC111135697,"splicing factor, suppressor of white-apricot homolog",HH
+,LOC111136209,transmembrane protein 231-like,HH
+,LOC111113022,uncharacterized protein KIAA0930 homolog,"CC, CH"
+,LOC111114112,uncharacterized LOC111114112,"CC, CH"
+,LOC111129145,FERM domain-containing protein 8-like,"CC, CH"
+,LOC111133874,uncharacterized LOC111133874,"CC, CH"
+,LOC111099548,kinesin-like protein KIF17,"CH, HH"
+,LOC111099571,histone RNA hairpin-binding protein-like,"CH, HH"
+,LOC111100608,DDRGK domain-containing protein 1-like,"CH, HH"
+,LOC111100898,"uncharacterized LOC111100898, transcript variant X3","CH, HH"
+,LOC111101237,putative 2'-deoxynucleoside 5'-phosphate N-hydrolase 1,"CH, HH"
+,LOC111101291,dnaJ homolog subfamily C member 27-like,"CH, HH"
+,LOC111101873,uncharacterized LOC111101873,"CH, HH"
+,LOC111103115,"SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily E member 1-like, transcript variant X7","CH, HH"
+,LOC111105256,"nucleolar MIF4G domain-containing protein 1-like, transcript variant X2","CH, HH"
+,LOC111105724,neural Wiskott-Aldrich syndrome protein-like,"CH, HH"
+,LOC111106792,uncharacterized LOC111106792,"CH, HH"
+,LOC111106920,plasma alpha-L-fucosidase-like,"CH, HH"
+,LOC111107307,"FYVE, RhoGEF and PH domain-containing protein 4-like","CH, HH"
+,LOC111108235,exosome complex component MTR3-like,"CH, HH"
+,LOC111108643,uncharacterized LOC111108643,"CH, HH"
+,LOC111109525,"FYVE, RhoGEF and PH domain-containing protein 4-like, transcript variant X1","CH, HH"
+,LOC111110427,uncharacterized LOC111110427,"CH, HH"
+,LOC111111231,"ferrochelatase, mitochondrial-like, transcript variant X1","CH, HH"
+,LOC111112550,"insulin-like growth factor 2 mRNA-binding protein 2, transcript variant X1","CH, HH"
+,LOC111112560,"E3 ubiquitin-protein ligase TRIM23-like, transcript variant X1","CH, HH"
+,LOC111115224,protein lin-9 homolog,"CH, HH"
+,LOC111118255,"vacuolar fusion protein CCZ1 homolog, transcript variant X2","CH, HH"
+,LOC111118811,"KAT8 regulatory NSL complex subunit 2-like, transcript variant X1","CH, HH"
+,LOC111119407,coiled-coil domain-containing protein 57-like,"CH, HH"
+,LOC111121012,"adenosine 3'-phospho 5'-phosphosulfate transporter 2-like, transcript variant X1","CH, HH"
+,LOC111121672,"2-(3-amino-3-carboxypropyl)histidine synthase subunit 2-like, transcript variant X1","CH, HH"
+,LOC111122030,"acyl-coenzyme A synthetase ACSM3, mitochondrial-like","CH, HH"
+,LOC111122294,"protein O-linked-mannose beta-1,2-N-acetylglucosaminyltransferase 1-like","CH, HH"
+,LOC111122641,"rab-like protein 6, transcript variant X3","CH, HH"
+,LOC111122838,condensin-2 complex subunit D3-like,"CH, HH"
+,LOC111123110,cell division control protein 6 homolog,"CH, HH"
+,LOC111123483,"uncharacterized LOC111123483, transcript variant X10","CH, HH"
+,LOC111124549,protein cramped-like,"CH, HH"
+,LOC111125319,DDB1- and CUL4-associated factor 8-like,"CH, HH"
+,LOC111125659,procollagen galactosyltransferase 1-like,"CH, HH"
+,LOC111126975,"signal recognition particle receptor subunit alpha-like, transcript variant X1","CH, HH"
+,LOC111127826,"mitochondrial uncoupling protein 2-like, transcript variant X1","CH, HH"
+,LOC111128233,probable ATP-dependent RNA helicase DDX49,"CH, HH"
+,LOC111128838,"tyrosine-protein kinase JAK2-like, transcript variant X1","CH, HH"
+,LOC111130099,collagen type IV alpha-3-binding protein-like,"CH, HH"
+,LOC111130551,uncharacterized LOC111130551,"CH, HH"
+,LOC111130727,uncharacterized LOC111130727,"CH, HH"
+,LOC111131029,EH domain-containing protein 3-like,"CH, HH"
+,LOC111131321,vacuolar protein sorting-associated protein 54-like,"CH, HH"
+,LOC111131329,MAM and LDL-receptor class A domain-containing protein 1-like,"CH, HH"
+,LOC111131404,U4/U6.U5 tri-snRNP-associated protein 1-like,"CH, HH"
+,LOC111131432,sorbitol dehydrogenase-like,"CH, HH"
+,LOC111132043,cryptochrome-1-like,"CH, HH"
+,LOC111132409,"uncharacterized LOC111132409, transcript variant X5","CH, HH"
+,LOC111132949,transforming acidic coiled-coil-containing protein 3-like,"CH, HH"
+,LOC111133240,"protein-tyrosine sulfotransferase 1-like, transcript variant X1","CH, HH"
+,LOC111133241,vacuolar protein sorting-associated protein 51 homolog,"CH, HH"
+,LOC111133384,guanine nucleotide-binding protein G(s) subunit alpha-like,"CH, HH"
+,LOC111133701,protein LCHN-like,"CH, HH"
+,LOC111134393,zinc finger protein 850-like,"CH, HH"
+,LOC111134499,"tyrosine-protein kinase RYK-like, transcript variant X2","CH, HH"
+,LOC111134862,"3-keto-steroid reductase-like, transcript variant X2","CH, HH"
+,LOC111134926,"huntingtin-like, transcript variant X2","CH, HH"
+,LOC111135050,"protein BANP-like, transcript variant X1","CH, HH"
+,LOC111135126,MORC family CW-type zinc finger protein 2-like,"CH, HH"
+,LOC111135297,signal recognition particle subunit SRP72-like,"CH, HH"
+,LOC111135380,"serine/threonine-protein phosphatase 4 regulatory subunit 1-like, transcript variant X2","CH, HH"
+,LOC111135587,phosphatidylinositide phosphatase SAC2-like,"CH, HH"
+,LOC111135891,peroxisome biogenesis factor 2-like,"CH, HH"
+,LOC111137010,ras-related protein Rab-2,"CH, HH"
+,LOC111137596,"aspartate aminotransferase, mitochondrial-like","CH, HH"
+,LOC111138145,"PRELI domain containing protein 3A-like, transcript variant X3","CH, HH"
