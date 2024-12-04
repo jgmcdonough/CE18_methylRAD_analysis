@@ -16,5 +16,6 @@ Statistically significant differentially methylated genes in each pairwise compa
 
 
 
-## DMG_venn
-Overlap of differentially methylated genes in pairwise comparisons - data originally generated in [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatures.ipynb), but venn diagram generated from [HC_genes_2.0.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes_2.0.ipynb) with ggvenn
+## Venn Diagram of differentially methylated genes
+- [DMG_venn.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/DMG_venn.pdf)
+Overlap of DMGs in pairwise comparisons - data originally generated in [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatures.ipynb), but venn diagram generated from [HC_genes_2.0.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes_2.0.ipynb) with ggvenn
