@@ -8,11 +8,13 @@ According to the manuscript:
 - **Figure 2**: The first exposure influences methylation patterns, and differences in the second exposure are observed only after a first exposure to hypoxia.
     - **2A**: [nmds_plot.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/nmds_plot.pdf)
     - **2B**: [nmds_plot_sigOnly.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/nmds_plot_sigOnly.pdf)
+    
     both generated from [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatures.ipynb)
     
 - **Figure 3**: Timing of hypoxic exposure results in differentially methylated genes
     - **3A**: [metaVolcano2.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/metaVolcano2.pdf) - 
     - **3B**: [DMG_venn.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/DMG_venn.pdf)
+    
     DMGs in pairwise comparisons originally generated in [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatures.ipynb), but venn diagram and all volcano plots together generated in [HC_genes_2.0.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes_2.0.ipynb) 
 
 
