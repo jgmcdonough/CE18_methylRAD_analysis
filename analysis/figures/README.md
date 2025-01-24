@@ -15,7 +15,7 @@ According to the manuscript:
     >both generated from [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatures.ipynb)
     
 #### **Figure 3**: Timing of hypoxic exposure results in differentially methylated genes
-- **3A**: [metaVolcano2.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/metaVolcano2.pdf) - 
+- **3A**: [metaVolcano2.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/metaVolcano2.pdf)
 - **3B**: [DMG_venn.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/DMG_venn.pdf)
     
     >DMGs in pairwise comparisons originally generated in [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatures.ipynb), but venn diagram and all volcano plots together generated in [HC_genes_2.0.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes_2.0.ipynb) 
