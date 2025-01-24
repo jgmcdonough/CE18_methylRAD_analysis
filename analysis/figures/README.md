@@ -2,7 +2,7 @@
 
 According to the manuscript:
 - **Figure 1**:  Methylation of CpG dinucleotides varies with genomic features and environmental exposure in oysters.
-    - **1A**: [propOverlap.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/propOverlap.pdf), generated from [overlap_genomicFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/overlap_genomicFeatures.ipynb) and visualized with ggplot in [create_proportionPlot.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/create_proportionPlot.ipynb)
+    - **1A**: [new_propOverlap.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/new_propOverlap.pdf), generated from [overlap_genomicFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/overlap_genomicFeatures.ipynb) and visualized with ggplot in [create_proportionPlot.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/create_proportionPlot.ipynb)
     - **1B**: [cpgME_boxplot_faceted.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/cpgMe_boxplot_faceted.pdf), generated from [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level_of_features.ipynb) 
     
 - **Figure 2**: The first exposure influences methylation patterns, and differences in the second exposure are observed only after a first exposure to hypoxia.
