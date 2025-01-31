@@ -47,6 +47,7 @@ Statistically significant differentially methylated genes in each pairwise compa
 
 ### Proportion Overlap
 - [propOverlap.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/propOverlap.pdf) - for each treatment, the proportion of methylated CpGs that overlap with genomic features - data generated from [overlap_genomicFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/overlap_genomicFeatures.ipynb) and visualized with ggplot in [create_proportionPlot.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/create_proportionPlot.ipynb)
+- [propOverlap_faceted.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/propOverlap_faceted.pdf) - same as above, but faceted by second exposure (similar to CpG methylation boxplot)
 
 ### Methylation Level Boxplots
 - [cpgME_boxplot_faceted.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/cpgMe_boxplot_faceted.pdf) - CpG dinucleotide methylation (>5 methylRAD sequences) level (methylated CpG/total CpG * 100) - data generated from [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level_of_features.ipynb) 
