@@ -1,0 +1,5 @@
+"","gene_id","gene_name","name","pair_vs_HC","GO.IDs","Term"
+"1","LOC111101375","OPRM1","mu-type opioid receptor-like","CH","GO:0007186","signaling"
+"2","LOC111137401","apoD","apolipoprotein D-like","HH","GO:0007420","anatomical structure development"
+"3","LOC111137579","Hsp70","heat shock 70 kDa protein 13-like","CH","GO:0042026","protein maturation"
+"4","LOC111101925","DJ-1","protein DJ-1-like","CH","GO:0106046","nucleobase-containing small molecule metabolic process"
