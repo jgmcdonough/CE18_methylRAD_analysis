@@ -1,4 +1,4 @@
-"col_name","methyl_count","treatment","methyl_level","phase1","phase2"
+"replicate","methyl_count","treatment","methyl_level","phase1","phase2"
 "X0",147798,"CC",1.02,"Control","Control"
 "X0.1",59287,"CC",0.41,"Control","Control"
 "X0.2",137931,"CC",0.95,"Control","Control"
