@@ -5,8 +5,8 @@ According to the manuscript:
 #### **Figure 1**:  Methylation of CpG dinucleotides varies with genomic features and environmental exposure in oysters.
 - **1A**: [propOverlap.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/propOverlap.pdf)
     >generated from [overlap_genomicFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/overlap_genomicFeatures.ipynb) and visualized with ggplot in [create_proportionPlot.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/create_proportionPlot.ipynb)
-- **1B**: [cpgME_boxplot_faceted.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/cpgMe_boxplot_faceted.pdf)
-    >generated from [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level_of_features.ipynb) 
+- **1B**: [cpgME_boxplot.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/cpgMe_boxplot.pdf)
+    >generated from [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level/methylation_level_of_features.ipynb) 
     
 #### **Figure 2**: The first exposure influences methylation patterns, and differences in the second exposure are observed only after a first exposure to hypoxia.
 - **2A**: [nmds_plot.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/nmds_plot.pdf)
@@ -34,6 +34,7 @@ generated from [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_me
 volcano plots of *all* six pairwise comparisons - plots differ in how the grids are labbelled (HC vs. Hyp Cont conventions)
 - [metaVolcano1.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/metaVolcano1.pdf) - (Hyp Cont convention)
 - [metaVolcano2.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/metaVolcano2.pdf) - (HC convention)
+- [metaVolc_withGenes.pdf]((https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/metaVolc_withGenes.pdf) - (HC convention, but highlighting some noteworthy genes)
 
 Statistically significant differentially methylated genes in each pairwise comparison - data originally generated in [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatures.ipynb), but ggplot generated from [HC_genes_2.0.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes_2.0.ipynb)
 
@@ -41,8 +42,8 @@ Statistically significant differentially methylated genes in each pairwise compa
 
 ### Venn diagrams
 - [DMG_venn.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/DMG_venn.pdf) - Overlap of DMGs in pairwise comparisons - data originally generated in [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatures.ipynb), but venn diagram generated from [HC_genes_2.0.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes_2.0.ipynb) with ggvenn
-- [exonME_venn.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/exonMe_venn.pdf) - overlap of methylated exons between treatments, generated in [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level_of_features.ipynb)
-- [cpgMe_venn.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/cpgMe_venn.pdf) - overlap of methylated CpG dinucleotides between treatments, generated in [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level_of_features.ipynb)
+- [exonME_venn.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/exonMe_venn.pdf) - overlap of methylated exons between treatments, generated in [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level/methylation_level_of_features.ipynb)
+- [cpgMe_venn.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/cpgMe_venn.pdf) - overlap of methylated CpG dinucleotides between treatments, generated in [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level/methylation_level_of_features.ipynb)
 
 
 ### Proportion Overlap
@@ -50,4 +51,4 @@ Statistically significant differentially methylated genes in each pairwise compa
 - [propOverlap_faceted.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/propOverlap_faceted.pdf) - same as above, but faceted by second exposure (similar to CpG methylation boxplot)
 
 ### Methylation Level Boxplots
-- [cpgME_boxplot_faceted.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/cpgMe_boxplot_faceted.pdf) - CpG dinucleotide methylation (>5 methylRAD sequences) level (methylated CpG/total CpG * 100) - data generated from [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level_of_features.ipynb) 
+- [cpgME_boxplot.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/cpgMe_boxplot.pdf) - CpG dinucleotide methylation (>5 methylRAD sequences) level (methylated CpG/total CpG * 100) - data generated from [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level/methylation_level_of_features.ipynb) 
