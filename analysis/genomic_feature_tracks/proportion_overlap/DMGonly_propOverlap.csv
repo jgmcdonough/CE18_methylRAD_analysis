@@ -1,0 +1,16 @@
+genomicFeature,treatment,propOverlap
+exons,CC,862
+introns,CC,524
+UTRs,CC,171
+exons,CH,308
+introns,CH,187
+UTRs,CH,24
+exons,HC,862
+introns,HC,585
+UTRs,HC,154
+exons,HH,890
+introns,HH,611
+UTRs,HH,158
+exons,allCpG,13793
+introns,allCpG,39509
+UTRs,allCpG,3546
