@@ -1,0 +1,247 @@
+gene_id,,Term,order,name,pair_vs_HC,gene_name,process,notes,GO.IDs,GOslim
+LOC111117760,signaling,signaling,1,"disintegrin and metalloproteinase domain-containing protein 10-like, transcript variant X3","CH, HH, CC",ADAM10,"cell signaling, adhesion, migration",,GO:0007219,GO:0023052
+LOC111119327,,NA,2,"calcyphosin-like protein, transcript variant X3","CH, HH, CC",CAPSL,calcium ion binding,,NA,NA
+LOC111123492,developmental process,anatomical structure development,3,"pre-B-cell leukemia transcription factor 1-like, transcript variant X11","CH, HH, CC",PBX1,regulates embryonic development and cellular differention,,GO:0048568,GO:0048856
+LOC111123492,developmental process,cell differentiation,3,"pre-B-cell leukemia transcription factor 1-like, transcript variant X11","CH, HH, CC",PBX1,regulates embryonic development and cellular differention,,GO:0048666,GO:0030154;GO:0048856
+LOC111123492,transcription,DNA-templated transcription,3,"pre-B-cell leukemia transcription factor 1-like, transcript variant X11","CH, HH, CC",PBX1,regulates embryonic development and cellular differention,,GO:0006357,GO:0006351;GO:0006355
+LOC111124674,,NA,4,"gamma-glutamyltranspeptidase 1-like, transcript variant X1","CH, HH, CC",GGT1,"proteolysis, metabolisis, immune response, spermatogenesis",other are from human homolog,NA,NA
+LOC111129146,signaling,signaling,5,FERM domain-containing protein 8-like,"CH, HH, CC",FRMD8,inflammatory and growth factor,,GO:0090090,GO:0023052
+LOC111133438,,NA,6,uncharacterized LOC111133438,"CH, HH, CC",,,,NA,NA
+LOC111099548,,NA,7,kinesin-like protein KIF17,"CH, HH",KIF17,motor protein,,NA,NA
+LOC111099571,metabolic process,mRNA metabolic process,8,histone RNA hairpin-binding protein-like,"CH, HH",,"mRNA binding, transport",,GO:0006398,GO:0016071
+LOC111099930,,NA,9,"uncharacterized LOC111099930, transcript variant X1","CH, HH",,,,NA,NA
+LOC111100608,,NA,10,DDRGK domain-containing protein 1-like,"CH, HH",DDRGK,"regulates ubiquitin-fold modifier, lysosomal function, autophagic degradation",,NA,NA
+LOC111101237,metabolic process,nucleobase-containing small molecule metabolic process,11,putative 2'-deoxynucleoside 5'-phosphate N-hydrolase 1,"CH, HH",DNPH1,"cell growth, catabolic process",,GO:0009159,GO:0055086
+LOC111101984,,NA,12,von Willebrand factor D and EGF domain-containing protein-like,"CH, HH",VWDE,signaling receptor binding,,NA,NA
+LOC111103097,,NA,13,transcription initiation factor TFIID subunit 3-like,"CH, HH",TFIID,regulates gene expression - TGF,,NA,NA
+LOC111105724,developmental process,cytoskeleton organization,14,neural Wiskott-Aldrich syndrome protein-like,"CH, HH",N-WASP,actin filament polymerization,phagocytosis and endocytosis,GO:0030041,GO:0007010;GO:0065003
+LOC111105724,complex assembly,protein-containing complex assembly,14,neural Wiskott-Aldrich syndrome protein-like,"CH, HH",N-WASP,actin filament polymerization,phagocytosis and endocytosis,GO:0030041,GO:0007010;GO:0065003
+LOC111106460,,NA,15,tetraspanin-6-like,"CH, HH",TSPAN6,"regulates exosome release, protein metabolism",,NA,NA
+LOC111108235,metabolic process,mRNA metabolic process,16,exosome complex component MTR3-like,"CH, HH",MTR3,RNA processing and degradation,,GO:0071028,GO:0016071
+LOC111108235,gene expression,regulatory ncRNA-mediated gene silencing,16,exosome complex component MTR3-like,"CH, HH",MTR3,RNA processing and degradation,,GO:0071051,GO:0031047
+LOC111110427,,NA,17,uncharacterized LOC111110427,"CH, HH",,,,NA,NA
+LOC111111231,,NA,18,"ferrochelatase, mitochondrial-like, transcript variant X1","CH, HH",FECH,catalyzes final step in heme biosynthesis,heme - part of hemoglobin inside red blood cells that binds oxygen in the lungs and carries it to tissues,NA,NA
+LOC111111634,,NA,19,"uncharacterized LOC111111634, transcript variant X2","CH, HH",,,,NA,NA
+LOC111112560,,NA,20,"E3 ubiquitin-protein ligase TRIM23-like, transcript variant X1","CH, HH",TRIM23,autophagy activation,,NA,NA
+LOC111112886,,NA,21,"protein FAM214A-like, transcript variant X1","CH, HH",FAM214A,,,NA,NA
+LOC111115479,,NA,22,ras-related protein Rab-31-like,"CH, HH",Rab31,intracellular membrane trafficking,,NA,NA
+LOC111118255,,NA,23,"vacuolar fusion protein CCZ1 homolog, transcript variant X2","CH, HH",CCZ1,trafficking of vesicles and lysosomes,,NA,NA
+LOC111118657,,NA,24,"uncharacterized LOC111118657, transcript variant X2","CH, HH",,,,NA,NA
+LOC111119107,metabolic process,amino acid metabolic process,25,"glutamate dehydrogenase, mitochondrial-like","CH, HH",GDH,"amino acid metabolism, detoxification of ammonia",,GO:0006538,GO:0006520
+LOC111119407,,NA,26,coiled-coil domain-containing protein 57-like,"CH, HH",CCDC57,"protein-protein interactions, cell division, centrosome function",,NA,NA
+LOC111119745,,ribosome biogenesis,27,60S ribosomal protein L10-like,"CH, HH",RPL10,translation,,GO:0000027,GO:0042254;GO:0065003
+LOC111119745,complex assembly,protein-containing complex assembly,27,60S ribosomal protein L10-like,"CH, HH",RPL10,translation,,GO:0000027,GO:0042254;GO:0065003
+LOC111121012,,NA,28,"adenosine 3'-phospho 5'-phosphosulfate transporter 2-like, transcript variant X1","CH, HH",PAPST2,transporter,,NA,NA
+LOC111121672,,NA,29,"2-(3-amino-3-carboxypropyl)histidine synthase subunit 2-like, transcript variant X1","CH, HH",DPH2,post-translational modification,,NA,NA
+LOC111122294,metabolic process,carbohydrate derivative metabolic process,30,"protein O-linked-mannose beta-1,2-N-acetylglucosaminyltransferase 1-like","CH, HH",POMGnT1,"protein glycosylation, metabolisis",,GO:0016266,GO:0006486;GO:1901135
+LOC111122641,,NA,31,"rab-like protein 6, transcript variant X3","CH, HH",Rab6,GTPase protein - movement of vesicles ,,NA,NA
+LOC111123110,,mitotic cell cycle,32,cell division control protein 6 homolog,"CH, HH",CDC6,initiation of DNA replication,,GO:0033314,GO:0000278;GO:0023052
+LOC111123110,signaling,signaling,32,cell division control protein 6 homolog,"CH, HH",CDC6,initiation of DNA replication,,GO:0033314,GO:0000278;GO:0023052
+LOC111123110,dna metabolism,DNA replication,32,cell division control protein 6 homolog,"CH, HH",CDC6,initiation of DNA replication,,GO:0006270,GO:0006260
+LOC111123123,,NA,33,Sjoegren syndrome nuclear autoantigen 1-like,"CH, HH",SSNA1,,,NA,NA
+LOC111123483,signaling,signaling,34,"uncharacterized LOC111123483, transcript variant X10","CH, HH",,,,GO:0007264,GO:0023052
+LOC111124465,gene expression,mitochondrial gene expression,35,"elongation factor G, mitochondrial-like","CH, HH",GFM1,protein synthesis,,GO:0070125,GO:0140053
+LOC111124698,,NA,36,"ELAV-like protein 3, transcript variant X1","CH, HH",ELAV,"binds to RNA, essential for development and maintenance of nervous system in drosophila",,NA,NA
+LOC111125319,,NA,37,DDB1- and CUL4-associated factor 8-like,"CH, HH",DDB1 and CUL4,"DNA repair, regulate cell cycle",,NA,NA
+LOC111125659,,NA,38,procollagen galactosyltransferase 1-like,"CH, HH",COLGALT1,formation of collagen,,NA,NA
+LOC111126975,protein transport,intracellular protein transport,39,"signal recognition particle receptor subunit alpha-like, transcript variant X1","CH, HH",SR-PRA,regulates targeting proteins to ER membrane,,GO:0006614,GO:0006886
+LOC111128233,,NA,40,probable ATP-dependent RNA helicase DDX49,"CH, HH",DDX49,"dead-box helicase, cell growth, chromatin remodeling",,NA,NA
+LOC111130099,,NA,41,collagen type IV alpha-3-binding protein-like,"CH, HH",COL4A3,"cell signaling, adhesion",,NA,NA
+LOC111130842,metabolic process,lipid metabolic process,42,dihydroxyacetone phosphate acyltransferase-like,"CH, HH",DHAPAT,"phospholipid biosynthetic process, response to zenobiotic stimilus and starvation",,GO:0008611,GO:0006629
+LOC111131329,,NA,43,MAM and LDL-receptor class A domain-containing protein 1-like,"CH, HH",MAM and LDL,cholesterol homeostasis (humans),,NA,NA
+LOC111132409,,NA,44,"uncharacterized LOC111132409, transcript variant X5","CH, HH",,,,NA,NA
+LOC111132506,,NA,45,uncharacterized LOC111132506,"CH, HH",,,,NA,NA
+LOC111133260,,NA,46,tyrosine-protein phosphatase non-receptor type 5-like,"CH, HH",PTPN5,regulating cellular singaling pathways,,NA,NA
+LOC111133892,metabolic process,carbohydrate derivative metabolic process,47,N-terminal EF-hand calcium-binding protein 1-like,"CH, HH",NECAB1,"calcium ion binding, pain signaling",,GO:0042984,GO:1901135
+LOC111134499,developmental process,anatomical structure development,48,"tyrosine-protein kinase RYK-like, transcript variant X2","CH, HH",RYK,Wnt signaling and development,,GO:0007275,GO:0048856
+LOC111134499,signaling,signaling,48,"tyrosine-protein kinase RYK-like, transcript variant X2","CH, HH",RYK,Wnt signaling and development,,GO:0007169,GO:0023052
+LOC111134926,,NA,49,"huntingtin-like, transcript variant X2","CH, HH",HTT ,apoptosis,,NA,NA
+LOC111135050,metabolic process,protein catabolic process,50,"protein BANP-like, transcript variant X1","CH, HH",BANP,"chromatin organization, catabolic process, protein localization",,GO:0042177,GO:0030163
+LOC111135173,metabolic process,lipid metabolic process,51,ceramide glucosyltransferase-like,"CH, HH",UGCG,signal transduction,,GO:0006679,GO:0006629;GO:1901135
+LOC111135380,,NA,52,"serine/threonine-protein phosphatase 4 regulatory subunit 1-like, transcript variant X2","CH, HH",PPP4R1,"signal transduction, protein phosphorylation",,NA,NA
+LOC111136185,protein transport,intracellular protein transport,53,importin-5-like,"CH, HH",IPO5,transports proteins into nucleus,,GO:0006606,GO:0006886;GO:0006913
+LOC111137596,metabolic process,amino acid metabolic process,54,"aspartate aminotransferase, mitochondrial-like","CH, HH",GOT2,metabolism,,GO:0006533,GO:0006520
+LOC111103344,,NA,55,"uncharacterized LOC111103344, transcript variant X7","CH, CC",,,,NA,NA
+LOC111132100,,NA,56,"uncharacterized LOC111132100, transcript variant X3","CH, CC",,,,NA,NA
+LOC111133874,,NA,57,uncharacterized LOC111133874,"CH, CC",,,,NA,NA
+LOC111118022,protein transport,vesicle-mediated transport,58,"exocyst complex component 7-like, transcript variant X1","CC, HH",EXOC7,exocytosis,,GO:0006887,GO:0016192
+LOC111115023,,NA,59,uncharacterized LOC111115023,CC,,,,NA,NA
+LOC111117745,metabolic process,protein catabolic process,60,"uncharacterized LOC111117745, transcript variant X5",CC,,,,GO:0043161,GO:0030163
+LOC111106272,,NA,61,UDP-xylose and UDP-N-acetylglucosamine transporter-like,HH,Efr,membrane transport,,NA,NA
+LOC111106920,metabolic process,carbohydrate derivative metabolic process,62,plasma alpha-L-fucosidase-like,HH,FUCA2,metabolic/catabolic process,,GO:0016139,GO:1901135
+LOC111109361,,NA,63,fucolectin-like,HH,,"fucose binding activity, cellular defence responses",,NA,NA
+LOC111109809,transcription,DNA-templated transcription,64,peroxisome proliferator-activated receptor delta-like,HH,PPARD,"cell signaling, cellular response to hypoxia (mouse)",,GO:0000122,GO:0006351;GO:0006355
+LOC111109809,metabolic process,lipid metabolic process,64,peroxisome proliferator-activated receptor delta-like,HH,PPARD,"cell signaling, cellular response to hypoxia (mouse)",,GO:0019216,GO:0006629
+LOC111109809,signaling,signaling,64,peroxisome proliferator-activated receptor delta-like,HH,PPARD,"cell signaling, cellular response to hypoxia (mouse)",,GO:0009755,GO:0023052
+LOC111110897,metabolic process,protein catabolic process,65,"E3 ubiquitin-protein ligase TRIM71-like, transcript variant X1",HH,TRIM71,RNA binding,,GO:0043161,GO:0030163
+LOC111115873,cell adhesion,cell adhesion,66,"uncharacterized LOC111115873, transcript variant X2",HH,,,,GO:0007160,GO:0007155
+LOC111117306,transcription,DNA-templated transcription,67,zinc finger protein 239-like,HH,ZNF239,DNA binding,,GO:0006357,GO:0006351;GO:0006355
+LOC111121129,,NA,68,mapk-regulated corepressor-interacting protein 1-like,HH,MCRI1,mapk - regulate cellular responses to stimuli,,NA,NA
+LOC111122360,signaling,signaling,69,inactive rhomboid protein 1-like,HH,iRhom1 or RHBDF1,protein transport,,GO:0042058,GO:0023052
+LOC111124746,cell cycle and proliferation,cytokinesis,70,"septin-11-like, transcript variant X3",HH,SEPTIN11,"protein localization, cell cycle",,GO:0061640,GO:0000910
+LOC111124824,,NA,71,uncharacterized LOC111124824,HH,,,,NA,NA
+LOC111127248,,NA,72,uncharacterized LOC111127248,HH,,,,NA,NA
+LOC111130727,metabolic process,protein catabolic process,73,uncharacterized LOC111130727,HH,,,,GO:0031146,GO:0030163
+LOC111130878,,NA,74,uncharacterized LOC111130878,HH,,,,NA,NA
+LOC111131105,protein transport,intracellular protein transport,75,importin-11-like,HH,IPO11,transport RNA and proteins ,HH has two IPO genes methylated,GO:0006606,GO:0006886;GO:0006913
+LOC111131404,metabolic process,mRNA metabolic process,76,U4/U6.U5 tri-snRNP-associated protein 1-like,HH,SART1,mRNA splicing,,GO:0045292,GO:0016071
+LOC111131546,metabolic process,ribosome biogenesis,77,probable ATP-dependent RNA helicase DDX52,HH,DDX52,RNA binding,,GO:0030490,GO:0042254
+LOC111133250,protein transport,intracellular protein transport,78,mitochondrial import inner membrane translocase subunit Tim21-like,HH,Tim21,mitochondrial cytochrome oxidase assembly,MRC - mitochondrial respiratory chain - transfer electrons to oxygen to create energy for cells,GO:0030150,GO:0006886;GO:0007005;GO:0055085
+LOC111136209,cell cycle and proliferation,cilium organization,79,transmembrane protein 231-like,HH,TMEM231,cilium biogenesis/degradation,,GO:0060271,GO:0044782
+LOC111137401,developmental process,anatomical structure development,80,apolipoprotein D-like,HH,apoD,"transports small hydrophoic molecules in the body - lipid metabolism, stress response",,GO:0042246,GO:0048856
+LOC111137635,,NA,81,"disrupted in renal carcinoma protein 2 homolog, transcript variant X2",HH,DIRC2,transporter,,NA,NA
+LOC111099585,DNA repair,DNA repair,82,lys-63-specific deubiquitinase BRCC36-like,CH,BRCC36,"dna repair, immune regulation (Rabl et al., 2019)",,GO:0006302,GO:0006281
+LOC111099978,,NA,83,"oncoprotein-induced transcript 3 protein-like, transcript variant X1",CH,OIT3,"renal system process, calcium ion binding",,NA,NA
+LOC111100625,metabolic process,generation of precursor metabolites and energy,84,"succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial-like, transcript variant X2",CH,SDHA,electron transport chain,,GO:0006121,GO:0006091
+LOC111100898,,NA,85,"uncharacterized LOC111100898, transcript variant X3",CH,,,,NA,NA
+LOC111100915,,NA,86,"uncharacterized LOC111100915, transcript variant X2",CH,,,,NA,NA
+LOC111101375,signaling,signaling,87,mu-type opioid receptor-like,CH,OPRM1,"regulation of cellular response to stress, transducer",,GO:0007186,GO:0023052
+LOC111101401,,NA,88,"von Willebrand factor D and EGF domain-containing protein-like, transcript variant X2",CH,VWDE,receptor binding,,NA,NA
+LOC111101764,metabolic process,generation of precursor metabolites and energy,89,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 4, mitochondrial-like",CH,Ndufs4,"electron transport chain, respiratory chain, cellular response to oxygen levels",,GO:0022900,GO:0006091
+LOC111101925,metabolic process,nucleobase-containing small molecule metabolic process,90,protein DJ-1-like,CH,DJ-1,"cellular metabolism, oxidative stress",,GO:0106046,GO:0055086
+LOC111102125,,NA,91,uncharacterized LOC111102125,CH,,,,NA,NA
+LOC111103019,metabolic process,protein catabolic process,92,"uncharacterized LOC111103019, transcript variant X4",CH,,,,GO:0043161,GO:0030163
+LOC111103273,signaling,signaling,93,"T-complex protein 11-like protein 1, transcript variant X1",CH,TCP1,"chaperone, localization",,GO:0007165,GO:0023052
+LOC111103294,cell cycle and proliferation,cytoskeleton organization,94,"wiskott-Aldrich syndrome protein family member 2-like, transcript variant X1",CH,Wasf2,"endocytosis, actin binding",,GO:0030036,GO:0007010
+LOC111103345,,NA,95,"uncharacterized LOC111103345, transcript variant X5",CH,,,,NA,NA
+LOC111103625,,NA,96,"transmembrane protein 39A-like, transcript variant X3",CH,TMEM39A,autophagy,,NA,NA
+LOC111103813,,NA,97,"coiled-coil domain-containing protein 58-like, transcript variant X1",CH,CCDC58,protein-protein interactions,,NA,NA
+LOC111103979,,NA,98,"uncharacterized LOC111103979, transcript variant X1",CH,,,,NA,NA
+LOC111104327,,NA,99,MAM and LDL-receptor class A domain-containing protein 2-like,CH,MAM and LDL,regulates lipid homeostasis,,NA,NA
+LOC111104711,,NA,100,"uncharacterized LOC111104711, transcript variant X5",CH,,,,NA,NA
+LOC111104792,metabolic process,carbohydrate metabolic process,101,"alpha-mannosidase 2C1-like, transcript variant X2",CH,MAN2C1,"metabolic processes, hydrolase, glycosidase",,GO:0009313,GO:0005975
+LOC111105071,,NA,102,uncharacterized LOC111105071,CH,,,,NA,NA
+LOC111105293,metabolic process,protein catabolic process,103,26S proteasome non-ATPase regulatory subunit 13-like,CH,PSMD13,"catabolic processes, meiosis I",,GO:0006511,GO:0030163
+LOC111106504,,NA,104,"RNA polymerase II-associated protein 3-like, transcript variant X2",CH,RPAP3,protein stabilization,,NA,NA
+LOC111106900,,NA,105,"uncharacterized LOC111106900, transcript variant X1",CH,,,,NA,NA
+LOC111107078,,NA,106,uncharacterized LOC111107078,CH,,,,NA,NA
+LOC111107250,,NA,107,"dynein heavy chain 3, axonemal-like, transcript variant X1",CH,DNAH3,"ATP binding, motor protein",,NA,NA
+LOC111107262,,NA,108,uncharacterized LOC111107262,CH,,,,NA,NA
+LOC111107449,,NA,109,uncharacterized LOC111107449,CH,,,,NA,NA
+LOC111107780,,NA,110,uncharacterized LOC111107780,CH,,,,NA,NA
+LOC111108643,transcription,DNA-templated transcription,111,uncharacterized LOC111108643,CH,,,,GO:0006355,GO:0006351
+LOC111108643,developmental process,reproductive process,111,uncharacterized LOC111108643,CH,,,,GO:0007283,GO:0022414
+LOC111111088,cell cycle and proliferation,mitotic cell cycle,112,proteasome activator complex subunit 3-like,CH,PSME3,apoptosis,,GO:2000045,GO:0000278
+LOC111111088,metabolic process,protein catabolic process,112,proteasome activator complex subunit 3-like,CH,PSME3,apoptosis,,GO:0061136,GO:0030163
+LOC111111498,DNA repair,DNA repair,113,"uncharacterized LOC111111498, transcript variant X2",CH,,,,GO:0006284,GO:0006281
+LOC111111633,,NA,114,NAD-dependent protein deacetylase sirtuin-2-like,CH,SIRT2,"cellular response to oxidative stress and hypoxia, cell cycle, autophagy",,NA,NA
+LOC111111877,,NA,115,uncharacterized LOC111111877,CH,,,,NA,NA
+LOC111112319,,NA,116,"ADP-ribosylation factor 2, transcript variant X1",CH,ARL2,"regulation of aerobic respiration, protein folding, cell cycle",,NA,NA
+LOC111112794,,NA,117,"polypeptide N-acetylgalactosaminyltransferase 5-like, transcript variant X2",CH,GALNT5,transferase,,NA,NA
+LOC111112938,signaling,signaling,118,wolframin-like,CH,WFS1,apoptosis,,GO:0030968,GO:0023052
+LOC111113022,,NA,119,uncharacterized protein KIAA0930 homolog,CH,KIAA0930,,,NA,NA
+LOC111113121,DNA repair,DNA repair,120,PMS1 protein homolog 1-like,CH,PMS1,protein involved in DNA mismatch repair,,GO:0006298,GO:0006281
+LOC111114568,,NA,121,"uncharacterized LOC111114568, transcript variant X2",CH,,,,NA,NA
+LOC111114695,,NA,122,"uncharacterized LOC111114695, transcript variant X2",CH,,,,NA,NA
+LOC111115628,,NA,123,"uncharacterized LOC111115628, transcript variant X1",CH,,,,NA,NA
+LOC111116966,metabolic process,ribosome biogenesis,124,MKI67 FHA domain-interacting nucleolar phosphoprotein-like,CH,MKI67,,,GO:0000463,GO:0042254
+LOC111117059,,NA,125,uncharacterized LOC111117059,CH,,,,NA,NA
+LOC111117491,,NA,126,"uncharacterized LOC111117491, transcript variant X2",CH,,,,NA,NA
+LOC111117551,metabolic process,protein catabolic process,127,ATP-dependent zinc metalloprotease YME1 homolog,CH,YME1,degradation of unfolded or misfolded mitochondrial gene products,,GO:0006515,GO:0030163
+LOC111118281,,NA,128,leucine-rich repeat-containing protein 40-like,CH,LRRC40,protein-protein interactions,,NA,NA
+LOC111118623,,NA,129,"uncharacterized LOC111118623, transcript variant X2",CH,,,,NA,NA
+LOC111118703,metabolic process,ribosome biogenesis,130,ERI1 exoribonuclease 2-like,CH,ERI1,enables exonuclease activity,,GO:0000467,GO:0042254
+LOC111118811,,NA,131,"KAT8 regulatory NSL complex subunit 2-like, transcript variant X1",CH,KAT8,"gene expression, autophagy, DNA damage repair",,NA,NA
+LOC111118943,,NA,132,uncharacterized LOC111118943,CH,,,,NA,NA
+LOC111119108,signaling,signaling,133,"3-phosphoinositide-dependent protein kinase 1-like, transcript variant X1",CH,PDPK1,,,GO:0035556,GO:0023052
+LOC111119134,,NA,134,uncharacterized LOC111119134,CH,,,,NA,NA
+LOC111119190,metabolic process,amino acid metabolic process,135,"ornithine decarboxylase-like, transcript variant X1",CH,ODC,produces polyamines,,GO:0033387,GO:0006520
+LOC111119195,,NA,136,"heterogeneous nuclear ribonucleoprotein D-like, transcript variant X2",CH,HNRNPD,regulates mRNA stability,,NA,NA
+LOC111119646,DNA repair,DNA repair,137,PCNA-interacting partner-like,CH,PCNA,DNA repair,,GO:2000042,GO:0006281;GO:0006310
+LOC111119646,DNA repair,DNA recombination,137,PCNA-interacting partner-like,CH,PCNA,DNA repair,,GO:2000042,GO:0006281;GO:0006310
+LOC111119689,signaling,signaling,138,rapamycin-insensitive companion of mTOR-like,CH,mTOR,"controls cell growth, metabolism, autophagy",,GO:0038203,GO:0023052
+LOC111119758,metabolic process,carbohydrate derivative metabolic process,139,"beta-1,3-galactosyltransferase 1-like, transcript variant X1",CH,B2GALT1,immune function?,,GO:0006486,GO:1901135
+LOC111119809,metabolic process,protein catabolic process,140,ATP-dependent Clp protease proteolytic subunit-like,CH,ClpP,"breaks down proteins, requires ATP",,GO:0006515,GO:0030163
+LOC111119821,,NA,141,uncharacterized LOC111119821,CH,,,,NA,NA
+LOC111119994,transcription,DNA-templated transcription,142,"transcription factor E2F3-like, transcript variant X2",CH,E2F3,"regulate cell cycle progression, DNA synthesis",,GO:0006357,GO:0006351;GO:0006355
+LOC111120124,,NA,143,uncharacterized LOC111120124,CH,,,,NA,NA
+LOC111120343,,NA,144,uncharacterized LOC111120343,CH,,,,NA,NA
+LOC111120566,,NA,145,piwi-like protein 1,CH,PIWI,responsible for stem and germ cell differentiation,,NA,NA
+LOC111120666,,NA,146,"glutathione peroxidase-like, transcript variant X1",CH,GPx,protect cells from oxidative damage,,NA,NA
+LOC111120860,metabolic process,protein catabolic process,147,DNA excision repair protein ERCC-8-like,CH,ERCC-8,DNA repair,,GO:0043161,GO:0030163
+LOC111120860,DNA repair,DNA repair,147,DNA excision repair protein ERCC-8-like,CH,ERCC-8,DNA repair,,GO:0006283,GO:0006281
+LOC111121267,cellular stress response,protein maturation,148,"N-alpha-acetyltransferase 25, NatB auxiliary subunit-like",CH,NatB,cellular migration,,GO:0017196,GO:0051604
+LOC111121529,,NA,149,coiled-coil domain-containing protein 178-like,CH,CCDC178,protein-protein interactions,,NA,NA
+LOC111122414,,NA,150,thimet oligopeptidase-like,CH,TOP,,,NA,NA
+LOC111122629,,NA,151,"rab GTPase-activating protein 1-like, transcript variant X1",CH,RABGAP1,"regulates cell migration, mitosis, vesicular trafficking",,NA,NA
+LOC111122838,developmental process,reproductive process,152,condensin-2 complex subunit D3-like,CH,NCAPD3,establishes mitotic chromosome architecture,,GO:0010032,GO:0022414
+LOC111122838,cell cycle and proliferation,mitotic cell cycle,152,condensin-2 complex subunit D3-like,CH,NCAPD3,establishes mitotic chromosome architecture,,GO:0007076,GO:0000278;GO:0007059;GO:0140014
+LOC111123210,signaling,signaling,153,"arf-GAP with Rho-GAP domain, ANK repeat and PH domain-containing protein 1-like",CH,ARAP1,modulates actin cytoskeleton,,GO:0007165,GO:0023052
+LOC111123248,,NA,154,"CAP-Gly domain-containing linker protein 1-like, transcript variant X2",CH,CLIP1,organize microtubules and transport organelles,,NA,NA
+LOC111124014,protein transport,intracellular protein transport,155,vacuolar protein sorting-associated protein 8 homolog,CH,VPS8,sorting proteins destined for the vacuole,,GO:0006623,GO:0006886
+LOC111124014,,vesicle-mediated transport,155,vacuolar protein sorting-associated protein 8 homolog,CH,VPS8,sorting proteins destined for the vacuole,,GO:0034058,GO:0016192;GO:0061024
+LOC111124014,,membrane organization,155,vacuolar protein sorting-associated protein 8 homolog,CH,VPS8,sorting proteins destined for the vacuole,,GO:0034058,GO:0016192;GO:0061024
+LOC111124527,,NA,156,crystallin J1A-like,CH,J1A,"structural proteins in lens (Andley, 2007) - evolutionarily related to stress proteins",,NA,NA
+LOC111124549,developmental process,anatomical structure development,157,protein cramped-like,CH,CRAMP1,enable chromatin binding activity,,GO:0007389,GO:0048856
+LOC111124649,signaling,signaling,158,rho GTPase-activating protein 26-like,CH,ARHGAP26,"actin cytoskeleton organization, mitophagy, signal transduction",,GO:0007165,GO:0023052
+LOC111124759,,NA,159,protein unc-50 homolog,CH,unc-50,"enable RNA-binding activity, protein localization",,NA,NA
+LOC111125224,cell cycle and proliferation,cilium organization,160,"outer dense fiber protein 2-like, transcript variant X5",CH,ODF2,cytoskeletol structure,,GO:1902017,GO:0044782
+LOC111125487,,NA,161,uncharacterized LOC111125487,CH,,,,NA,NA
+LOC111125498,cell cycle and proliferation,cell differentiation,162,cytoplasmic FMR1-interacting protein 1-like,CH,CYFIP1,"protein translation, inhibit protein translation",,GO:0007411,GO:0030154;GO:0048856
+LOC111125498,developmental process,anatomical structure development,162,cytoplasmic FMR1-interacting protein 1-like,CH,CYFIP1,"protein translation, inhibit protein translation",,GO:0007411,GO:0030154;GO:0048856
+LOC111125498,complex assembly,protein-containing complex assembly,162,cytoplasmic FMR1-interacting protein 1-like,CH,CYFIP1,"protein translation, inhibit protein translation",,GO:0030833,GO:0007010;GO:0065003
+LOC111126066,cellular stress response,NA,163,lipase maturation factor 2-like,CH,LMF2,protein maturation,,NA,NA
+LOC111126599,,NA,164,"myosin-10-like, transcript variant X3",CH,MYO10,"genome stability, mediates mitosis",,NA,NA
+LOC111127769,metabolic process,ribosome biogenesis,165,"30S ribosomal protein S11-like, transcript variant X4",CH,rps11,cytoplasmic translation,,GO:0000028,GO:0042254;GO:0065003
+LOC111127769,complex assembly,protein-containing complex assembly,165,"30S ribosomal protein S11-like, transcript variant X4",CH,rps11,cytoplasmic translation,,GO:0000028,GO:0042254;GO:0065003
+LOC111127947,metabolic process,lipid metabolic process,166,"3-ketoacyl-CoA thiolase, mitochondrial-like",CH,ACAA2,"mitochondrial beta-oxidation pathway, an aerobic process",,GO:0006635,GO:0006629
+LOC111128461,cell cycle and proliferation,mitotic cell cycle,167,zinc finger protein 830-like,CH,ZNF830,"helps maintain genomic integrity, DNA repair",,GO:0033314,GO:0000278;GO:0023052
+LOC111128461,signaling,signaling,167,zinc finger protein 830-like,CH,ZNF830,"helps maintain genomic integrity, DNA repair",,GO:0033314,GO:0000278;GO:0023052
+LOC111128461,cell cycle and proliferation,DNA replication,167,zinc finger protein 830-like,CH,ZNF830,"helps maintain genomic integrity, DNA repair",,GO:0033260,GO:0006260
+LOC111128787,,NA,168,uncharacterized LOC111128787,CH,,,,NA,NA
+LOC111128942,,NA,169,"sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1-like",CH,SVEP1,"gene expression, epidermis development ",,NA,NA
+LOC111128997,cellular stress response,protein maturation,170,furin-like protease kpc-1,CH,KPC-1,"gene expression, protein localization, dendrite stuff",,GO:0016486,GO:0051604
+LOC111129197,metabolic process,mRNA metabolic process,171,enhancer of mRNA-decapping protein 3-like,CH,EDC3,mRNA degradation,,GO:0031087,GO:0016071
+LOC111129520,,NA,172,uncharacterized LOC111129520,CH,,,,NA,NA
+LOC111129855,,NA,173,cilia- and flagella-associated protein 61-like,CH,CFAP61,formation and function of cilia and flagella,,NA,NA
+LOC111129907,,NA,174,"transcription factor SPT20 homolog, transcript variant X3",CH,SPT20,regulator of transcription,,NA,NA
+LOC111129934,metabolic process,generation of precursor metabolites and energy,175,"malate dehydrogenase, cytoplasmic-like",CH,MDH,"metabolic processes, oxidation of malate in CAC",,GO:0006099,GO:0006091
+LOC111130055,,NA,176,"acyl-CoA:lysophosphatidylglycerol acyltransferase 1-like, transcript variant X3",CH,LPGAT1,phospholipid biosynthetic process,,NA,NA
+LOC111130094,,NA,177,60S ribosomal protein L4-like,CH,RPL4,translation,,NA,NA
+LOC111130189,,NA,178,acid phosphatase type 7-like,CH,ACP7,,,NA,NA
+LOC111130476,,NA,179,"leucine-rich repeat-containing protein 28-like, transcript variant X3",CH,LRRC28,protein-protein interactions; maybe cellular signaling,,NA,NA
+LOC111130501,,NA,180,gamma-interferon-inducible lysosomal thiol reductase-like,CH,GILT,antigen processing,,NA,NA
+LOC111131170,,NA,181,retinol dehydrogenase 12-like,CH,RDH12,metabolizes retinoids; visual cycle,,NA,NA
+LOC111131315,protein transport,intracellular protein transport,182,signal recognition particle 54 kDa protein-like,CH,SRP54,binding activity,,GO:0006616,GO:0006886;GO:0055085
+LOC111131392,,NA,183,CD82 antigen-like,CH,CD82,maturation of beta cells,,NA,NA
+LOC111131529,,NA,184,"uncharacterized LOC111131529, transcript variant X3",CH,,,,NA,NA
+LOC111132043,,NA,185,cryptochrome-1-like,CH,CRY1,controls circadian timing,,NA,NA
+LOC111132075,,NA,186,acetyl-coenzyme A transporter 1-like,CH,AT-1 or SLC33A1,"transporter, regulates protein modifications",,NA,NA
+LOC111132155,cellular stress response,programmed cell death,187,"transmembrane protein 117-like, transcript variant X2",CH,TMEM117,cell death signaling; mitochondrial dysfunction,,GO:0070059,GO:0012501;GO:0023052
+LOC111132155,signaling,signaling,187,"transmembrane protein 117-like, transcript variant X2",CH,TMEM117,cell death signaling; mitochondrial dysfunction,,GO:0070059,GO:0012501;GO:0023052
+LOC111133086,,NA,188,"uncharacterized LOC111133086, transcript variant X1",CH,,,,NA,NA
+LOC111133107,metabolic process,protein catabolic process,189,tribbles homolog 2-like,CH,Trib2,"regulates cell proliferation and signaling pathways, inflammation",,GO:0032436,GO:0030163
+LOC111133163,metabolic process,ribosome biogenesis,190,U3 small nucleolar RNA-associated protein 4 homolog,CH,UTP4,"RNA binding, regulation of DNA-templated transcription",,GO:0000462,GO:0042254
+LOC111133241,protein transport,vesicle-mediated transport,191,vacuolar protein sorting-associated protein 51 homolog,CH,VPS51,sorting and trafficking proteins to the vacuole,,GO:0048193,GO:0016192
+LOC111133751,,NA,192,translationally-controlled tumor protein homolog,CH,TCTP,"cell proliferation, survival, and migration",,NA,NA
+LOC111133985,,NA,193,zinc finger CCCH domain-containing protein 18-like,CH,ZC3H18,regulate RNA metabolism,,NA,NA
+LOC111134206,transcription,DNA-templated transcription,194,"little elongation complex subunit 2-like, transcript variant X2",CH,ICE2,regulates transcription of snRNA genes,,GO:0045945,GO:0006351;GO:0006355
+LOC111134206,metabolic process,snRNA metabolic process,194,"little elongation complex subunit 2-like, transcript variant X2",CH,ICE2,regulates transcription of snRNA genes,,GO:0042796,GO:0006351;GO:0016073
+LOC111134206,protein transport,vesicle-mediated transport,194,"little elongation complex subunit 2-like, transcript variant X2",CH,ICE2,regulates transcription of snRNA genes,,GO:0006897,GO:0016192
+LOC111134216,cell cycle and proliferation,cytoplasmic translation,195,"eukaryotic translation initiation factor 3 subunit A-like, transcript variant X2",CH,EIF3A,translation initiation in eukaryotes,,GO:0002188,GO:0002181
+LOC111134216,complex assembly,protein-containing complex assembly,195,"eukaryotic translation initiation factor 3 subunit A-like, transcript variant X2",CH,EIF3A,translation initiation in eukaryotes,,GO:0001732,GO:0002181;GO:0065003
+LOC111134393,transcription,DNA-templated transcription,196,zinc finger protein 850-like,CH,ZNF850,regulation of transcription,,GO:0006357,GO:0006351;GO:0006355
+LOC111134580,protein transport,transmembrane transport,197,zinc transporter ZIP13-like,CH,ZIP13,"regulates zinc levels, involved in dermis",,GO:0071577,GO:0055085
+LOC111134719,,NA,198,ubiquitin carboxyl-terminal hydrolase 32-like,CH,USP32,"regulator of protein degradation pathways, removes ubiquitin tag",,NA,NA
+LOC111134768,,NA,199,alpha-centractin,CH,ACTR1A,activates molecular motor dynein,,NA,NA
+LOC111135181,transcription,DNA-templated transcription,200,"DNA-binding protein Ikaros-like, transcript variant X2",CH,IKZF1,transcription regulator,,GO:0006357,GO:0006351;GO:0006355
+LOC111135253,transcription,DNA-templated transcription,201,"calmodulin-binding transcription activator 1-like, transcript variant X5",CH,CAMTA1,regulates gene expression in response to calcium ,,GO:0006357,GO:0006351;GO:0006355
+LOC111135297,protein transport,intracellular protein transport,202,signal recognition particle subunit SRP72-like,CH,SRP72,identifying signal sequences on newly synthesized proteins,,GO:0006614,GO:0006886
+LOC111135414,,NA,203,"dnaJ homolog subfamily C member 16-like, transcript variant X2",CH,DNAJC16,regulating size of autophagosomes ,,NA,NA
+LOC111135548,,NA,204,E3 ubiquitin-protein ligase RNF31-like,CH,RNF31,"ubiquitin binding, CD40 signaling pathway, defense response to bacterium",,NA,NA
+LOC111135891,protein transport,intracellular protein transport,205,peroxisome biogenesis factor 2-like,CH,PEX2,forms peroxisomes (break down fatty acids),,GO:0016558,GO:0006886;GO:0007031;GO:0055085
+LOC111135891,cellular stress response,peroxisome organization,205,peroxisome biogenesis factor 2-like,CH,PEX2,forms peroxisomes (break down fatty acids),,GO:0016558,GO:0006886;GO:0007031;GO:0055085
+LOC111135891,protein transport,transmembrane transport,205,peroxisome biogenesis factor 2-like,CH,PEX2,forms peroxisomes (break down fatty acids),,GO:0016558,GO:0006886;GO:0007031;GO:0055085
+LOC111136099,transcription,DNA-templated transcription,206,ATM interactor-like,CH,ATMIN,regulation of DNA-templated transcription,,GO:0006357,GO:0006351;GO:0006355
+LOC111136201,,NA,207,TRAF-type zinc finger domain-containing protein 1-like,CH,TRAFD1,toll-like receptor signaling pathway,,NA,NA
+LOC111136327,,NA,208,endoplasmic reticulum resident protein 29-like,CH,ERP29,"protein folding, trafficking, and secretion; cell survival, stress-induced apoptosis, ER homeostasis",,NA,NA
+LOC111136738,,NA,209,uncharacterized LOC111136738,CH,,,,NA,NA
+LOC111137010,,NA,210,ras-related protein Rab-2,CH,RAB2A,protein transport,,NA,NA
+LOC111137079,,NA,211,polypyrimidine tract-binding protein homolog 3-like,CH,PTBP3,"post-transcriptional gene expression regulation, influencing mRNA splicing etc.",,NA,NA
+LOC111137482,,NA,212,adenosine deaminase domain-containing protein 1-like,CH,ADAD1,"protein found in male testis, required for male fertility; spermatogenesis",,NA,NA
+LOC111137579,cellular stress response,protein folding,213,heat shock 70 kDa protein 13-like,CH,Hsp70,cellular stress response,,GO:0042026,GO:0006457;GO:0051604
+LOC111137641,signaling,signaling,214,suppressor of cytokine signaling 4-like,CH,SOCS4,regulates immune response and cytokine signal transduction - controls cytokines in body,cytokines - immune response,GO:0035556,GO:0023052
+LOC111137641,metabolic process,lipid metabolic process,214,suppressor of cytokine signaling 4-like,CH,SOCS4,regulates immune response and cytokine signal transduction - controls cytokines in body,cytokines - immune response,GO:0046854,GO:0006629
+LOC111137719,,NA,215,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase-like",CH,,"catalysis, uses acetyl-CoA",,NA,NA
+LOC111137804,,NA,216,"uncharacterized LOC111137804, transcript variant X3",CH,,,,NA,NA
+LOC111138462,metabolic process,vitamin metabolic process,217,"thiamin pyrophosphokinase 1-like, transcript variant X1",CH,TPK1,"metabolic functions, catalysis",,GO:0009229,GO:0006766;GO:0006790
