@@ -1,0 +1,1 @@
+This directory contains the results of running DESeq without a potential outlier sample. We've determined that it would be wrong to throw that sample out of the analysis, but you can view how the data changes without it.
