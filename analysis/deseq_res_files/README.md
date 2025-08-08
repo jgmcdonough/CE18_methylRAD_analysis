@@ -2,6 +2,7 @@
 
 This folder contains the DESeq results (generated from [DESeq_geneFeatureCounts.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatureCounts.ipynb) for each of the pairwise comparisons, converted into dataframes, saved as csv files, and organized into sub-directories.
 
+**combined_geneRes.csv** is the combination of all files within [pairwise_results](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/pairwise_results), used to create the grid of volcano plots (figure [here](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/metaVolc_withGenes.pdf))
 
 In here, you will find:
 - [pairwise_results](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/pairwise_results) - all DMGs in each pairwise comparison, regardless of significance
@@ -10,3 +11,4 @@ In here, you will find:
 - [GO_terms](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/GO_terms) - GO terms for sig. DMGs (generated from [HC_genes_2.0.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes_2.0.ipynb))
 - [go-mwu](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/go-mwu) - output files from GO-MWU analysis using [GO_MWU.R](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/go_mwu/GO_MWU.R) and [mapGO2GOslim.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/mapGO2GOslim.ipynb), contains sig. DMGs with GOslims and GO terms
 - [DMGs_without_1sample](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/DMGs_without_1sample) - a directory of the results of running DESeq without a potential outlier sample. We've determined that it would be wrong to throw that sample out of the analysis, but you can view how the data changes without it.
+- [nMDS_input_files](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/nMDS_input_files) - dataframe generated from the DESeq package to use as input for creating the nMDS plot. nMDS plot of [all genes](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/nmds_plot.pdf) and [significant genes only](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/nmds_plot_sigOnly.pdf)
