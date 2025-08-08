@@ -1,14 +1,19 @@
 # DMGs_analysis
 Scripts for identifying differential methylation 
 
+Anything related to gene ontology can be found in the [GeneOntology](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/GeneOntology) directory
+
 ### 1. [featureCounts.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/featureCounts.ipynb)
 Generates counts matrix of sequences occurring withing a gene region (as identified in annotation file)
 - [geneFeature_counts.txt](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/counts_and_meta/geneFeature_counts.txt)
 
-### 2. [DESeq_analysis.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_analysis.ipynb)
+### 2A. [DESeq_analysis.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_analysis.ipynb)
 Identifies significantly differentially methylated genes in pairwise comparisons, as well as NMDS plots
 - [DMGs](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/geneFeatures_res) - directory containing DESeq results for *all* genes in each pairwise comparison (regardless if significant or not), as well as additional sub-directories
 - [sig_DMGs](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/geneFeatures_res/sig_DMGs) - folder containing all significantly DMGs for each pairwise comparison, with the associated gene name according to the GCF annotation file from NCBI
+
+### 2B. [volcano_DESeq.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/volcano_DESeq.ipynb)
+takes the results from [DESeq_analysis.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_analysis.ipynb), combine files into one df, and create grid of DESeq volcano plots
 
 ### 3A. [HC_genes_2.0.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes_2.0.ipynb)
 Downstream analysis from DESeq results (volcano plots, venn diagrams of shared and unique DMGs, GO terms of DMGs)
