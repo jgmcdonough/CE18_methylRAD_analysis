@@ -15,10 +15,10 @@ Identifies significantly differentially methylated genes in pairwise comparisons
 ### 2B. [volcano_DESeq.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/volcano_DESeq.ipynb)
 takes the results from [DESeq_analysis.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_analysis.ipynb), combine files into one df, and create grid of DESeq volcano plots
 
-### 3A. [HC_genes_2.0.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/HC_genes_2.0.ipynb)
-Downstream analysis from DESeq results (volcano plots, venn diagrams of shared and unique DMGs, GO terms of DMGs)
-- [GO_terms](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/geneFeatures_res/GO_terms) - folder containing GO terms for each pairwise comparison with HC
-- [venn_genes](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/geneFeatures_res/venn_genes) - folder containing shared and unique DMGs in pairwise comparisons from the venn diagram 
+### 3A. [DMGs.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DMGs.ipynb)
+Downstream analysis from DESeq results (idnividual volcano plots, venn diagrams of shared and unique DMGs, GO terms of DMGs)
+- [GO_terms](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/GeneOntology) - folder containing GO terms for each pairwise comparison with HC
+- [venn_genes](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/venn_genes) - folder containing shared and unique DMGs in pairwise comparisons from the venn diagram 
 
 ### 3B. [KEGG_HCgenes_2.0.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/KEGG_HCgenes_2.0.ipynb)
 Further downstream analysis from DESeq - KEGG analysis
