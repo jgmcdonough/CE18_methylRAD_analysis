@@ -1,4 +1,4 @@
-# Carryover effects of early life hypoxia influences DNA methylation in *Crassostrea virginica*
+# Prior exposure to hypoxia alters DNA methylation patterns in the eastern oyster
 
 Raw sequence data is available at the NCBI Sequence Read Archive under BioProject accession number PRJNA1327452.
 
@@ -14,7 +14,7 @@ NCBI RefSeq assembly: [GCF_002022765.2](https://www.ncbi.nlm.nih.gov/genome/anno
 ### [Quality Check](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/quality_check)
 contains scripts and files used to quality check sequences in prep for analysis
 
-### [Pipeline Counts](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/pipeline_counts)
+### [Processing](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/processing)
 contains scripts and files of sequences counts per sample for each step in quality pipeline
 
 ### [Analysis](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis)
