@@ -1,5 +1,7 @@
 # Prior exposure to hypoxia alters DNA methylation patterns in the eastern oyster
 
+[![DOI](https://zenodo.org/badge/716639763.svg)](https://doi.org/10.5281/zenodo.17902787)
+
 Raw sequence data is available at the NCBI Sequence Read Archive under BioProject accession number PRJNA1327452.
 
 ## Background
