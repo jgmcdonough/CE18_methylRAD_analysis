@@ -1,4 +1,4 @@
-# Prior exposure to hypoxia alters DNA methylation patterns in the eastern oyster
+# CE_MethylRAD_analysis
 
 [![DOI](zenodo.org)](https://doi.org/10.5281/zenodo.17902788)
 
