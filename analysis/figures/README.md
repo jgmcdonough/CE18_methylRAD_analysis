@@ -12,7 +12,7 @@ made in Word
 - **2B** generated from [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level/methylation_level_of_features.ipynb) 
     
 #### **Figure 3**: Differences in methylated gene regions are most pronounced in oysters first exposed to hypoxic and then control conditions compared to all other treatment combinations.
-[fig3.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/fig2.pdf)
+[fig3.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/fig3.pdf)
 - both **3A** and **3B** generated from [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatures.ipynb)
     
 #### **Figure 4**: Timing of hypoxic exposure results in differentially methylated genes.
