@@ -6,7 +6,7 @@ According to the manuscript:
 made in Word
 
 #### **Figure 2**:  Methylation of CpG dinucleotides varies with genomic features and environmental exposure in oysters.
-[fig2.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/fig1.pdf)
+[fig2.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/fig2.pdf)
 - **2A** is generated from [overlap_genomicFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/overlap_genomicFeatures.ipynb) and visualized with ggplot in [create_proportionPlot.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/create_proportionPlot.ipynb)
 [cpgME_boxplot.pdf](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/figures/cpgMe_boxplot.pdf)
 - **2B** generated from [methylation_level_of_features.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/genomic_feature_tracks/methylation_level/methylation_level_of_features.ipynb) 
