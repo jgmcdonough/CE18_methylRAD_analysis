@@ -4,7 +4,7 @@ This directory contains all scripts, files, and figures generated during analysi
 ## [DMGs_analysis](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/DMGs_analysis)
 Differential methylation analysis scripts
 - 01. [featureCounts.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/featureCounts.ipynb) - generate counts matrix of gene regions ([geneFeature_counts.txt](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/counts_and_meta/geneFeature_counts.txt))
-- 02. [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatures.ipynb) - run DESeq2 on counts matrix, create csv files of differentially methylated genes for each pairwise comparison - output in the [pairwise_results](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/pairwise_results) folder - only significant genes are in the [sig_DMGs](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/sig_DMGs) folder
+- 02. [DESeq_geneFeatures.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DESeq_geneFeatureCounts.ipynb) - run DESeq2 on counts matrix, create csv files of differentially methylated genes for each pairwise comparison - output in the [pairwise_results](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/pairwise_results) folder - only significant genes are in the [sig_DMGs](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/sig_DMGs) folder
 - 03. [volcano_DESeq](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/volcano_DESeq.ipynb) - take results from DESeq and create grid of Volcano plots
 - 04. [DMGs.ipynb](https://github.com/jgmcdonough/CE18_methylRAD_analysis/blob/master/analysis/DMGs_analysis/DMGs.ipynb) - downstream analysis of DESeq2; input is [DESeq files](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/pairwise_results), pulls out significant genes, analyzes overlap and creates [venn diagram](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/deseq_res_files/venn_genes)
      
@@ -22,7 +22,7 @@ Results of pariwise comparisons from [DESeq_geneFeatures.ipynb](https://github.c
 
 
 ## [figures](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/figures)
-PDFs of plots generated from analysis
+PDFs of plots generated from analysis - includes those in the manuscript (and labelled accordingly) and extra plots
 
 
 ## [genomic_feature_tracks](https://github.com/jgmcdonough/CE18_methylRAD_analysis/tree/master/analysis/genomic_feature_tracks)
